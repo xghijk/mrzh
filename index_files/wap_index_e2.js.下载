@@ -16,7 +16,7 @@ function check_ua(){
 				show_dialog("ios_dlg");
 			}
 		} else {			
-			show_dialog("kb_dlg");
+			return true;
 		}
 		return false;
 	}
