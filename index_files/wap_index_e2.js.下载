@@ -13,12 +13,12 @@ function check_ua(){
 			if(isWeiXin()){				
 				return true;
 			} else {
-				show_dialog("ios_dlg");
+				return true;//show_dialog("ios_dlg")
 			}
 		} else {			
 			return true;
 		}
-		return false;
+		return true;
 	}
 	return true;
 }
