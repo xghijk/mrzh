@@ -1,0 +1,6 @@
+/hts*
+/output/
+/*.gif
+/index.html
+
+.DS_Store
