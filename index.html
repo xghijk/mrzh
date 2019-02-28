@@ -1,0 +1,800 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.onebiji.com/tools/mrzh/pfcxq/wap/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Feb 2019 08:00:55 GMT -->
+<head>
+<meta charset="UTF-8">
+<title>明日之后配方大全_食谱材料-明日之后食谱查询器</title>
+<meta name="keywords" content="明日之后配方大全,明日之后配方合成,明日之后食谱大全,明日之后食谱材料,明日之后武器配方" />
+<meta name="description" content="明日之后食谱查询器为您提供明日之后配方怎么用、明日之后配方合成攻略、明日之后配方大全、食谱材料、食谱大全、明日之后武器配方，更多明日之后配方攻略，尽在明日之后食谱查询器。" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta content="false" id="twcClient" name="twcClient" />
+<link href="cdn/survive/static/chengpin/wap/v1/css/style_e2.css" rel="stylesheet" type="text/css" />
+<script src="cdn/js/jquery/1.8/jquery.js"></script>
+<script type="text/javascript">
+function init_viewport() {
+  var dpr = window.devicePixelRatio;
+  var deviceWidth = document.documentElement.clientWidth;
+  if(deviceWidth > 750)
+      deviceWidth = 750;
+      document.documentElement.style.fontSize = deviceWidth / 7.5 + "px";
+      document.documentElement.setAttribute("data-dpr",dpr);
+}
+init_viewport();
+window.onresize=init_viewport;
+</script>
+</head>
+<body>
+<div id="strategyDetailPage">
+    <script type="text/javascript">
+        var ua = navigator.userAgent;
+        var is_kb = ua.match(/ /i);
+        (function(){
+            if (!is_kb || typeof window.activityInterface.wapShare == 'function' || typeof window.activityInterface.toolWapShare == 'function' ) {
+                document.write('<p class="share_tip"><span>喜欢这个工具那就赶紧分享到你的营地群吧！</span><a class="share" id="share_btn" href="#">分享</a></p>');
+            }
+        })();
+    </script>
+    <div class="m1"></div>
+    <div class="m">
+        <ul class="tab-nav cf" id="tab-nav">
+            <li class="on"><a href="#" class="a1">食谱大全</a></li>
+            <li><a href="#" class="a2">食谱模拟器</a></li>
+            <li><a href="#" class="a3">NPC好感</a></li>
+            <li><a href="#" class="a4">配方大全</a></li>
+            <li><a href="#" class="a5">材料大全</a></li>
+        </ul>
+        <div class="tab-info">
+            <div class="tab-con">
+                <!-- 食谱list -->
+                <div class="tab-first" id="sp_list_div">
+                    <form id="sp_form">
+                        <div class="search cf">
+                            <input type="submit" class="input2 fr" value="搜索">
+                            <input type="text" class="input1" value="请输入要查询的食谱" onfocus="if(this.value=='请输入要查询的食谱') this.value='';" onblur="if(this.value=='') this.value='请输入要查询的食谱';">
+                        </div>
+                    </form>
+                    <ul class="blist cf" id="sp_type">
+                        <li class="on" rel=""><a href="#">全部</a></li>
+                        <li rel="-1"><a href="#">最佳推荐</a></li>
+                                                    <li rel="7"><a href="#">基础食材</a></li>
+                                                    <li rel="1"><a href="#">采集暴击</a></li>
+                                                    <li rel="2"><a href="#">提升伤害</a></li>
+                                                    <li rel="3"><a href="#">提升速度</a></li>
+                                                    <li rel="4"><a href="#">回复血量</a></li>
+                                                    <li rel="5"><a href="#">回复饥饿</a></li>
+                                                    <li rel="6"><a href="#">调整体温</a></li>
+                                                    <li rel="8"><a href="#">特殊料理</a></li>
+                                            </ul>
+                    <div class="sx-info">
+                        <ul class="list cf" id="sp_list">
+                                                            <li rel="8"><a href="#" onclick="return showSP(138);"><img src="cdn/uploads/userup/1902/ertong_ee143273383fa921041f1db69495837fc4ca.jpg?1" alt="明日之后彩虹元宵">彩虹元宵</a></li>
+                                                            <li rel="8"><a href="#" onclick="return showSP(137);"><img src="cdn/uploads/userup/1902/ertong_ef9ec4d29484e8c25143dfdcdba1f6f4c4ca.jpg?1" alt="明日之后红豆元宵">红豆元宵</a></li>
+                                                            <li rel="8"><a href="#" onclick="return showSP(136);"><img src="cdn/uploads/userup/1902/ertong_604ca0478e344806871d33ccfb991b2bc4ca.jpg?1" alt="明日之后花生元宵">花生元宵</a></li>
+                                                            <li rel="8"><a href="#" onclick="return showSP(135);"><img src="cdn/uploads/userup/1902/ertong_f237d41ecd35ac4978e7336744f3ed05c4ca.jpg?1" alt="明日之后芝麻元宵">芝麻元宵</a></li>
+                                                            <li rel="8"><a href="#" onclick="return showSP(130);"><img src="cdn/uploads/userup/1902/ertong_1c4e7276d131d7bfe0aca1a7dab51b86c4ca.jpg?1" alt="明日之后枣泥元宵">枣泥元宵</a></li>
+                                                            <li rel="4"><a href="#" onclick="return showSP(129);"><img src="cdn/uploads/userup/1812/ertong_ceba90a476018d256bb0639cd5cbcccfc4ca.jpg?1" alt="明日之后莓莓芝士蛋糕">莓莓芝士蛋糕</a></li>
+                                                            <li rel="4"><a href="#" onclick="return showSP(128);"><img src="cdn/uploads/userup/1812/ertong_b7793abc9a6ebf85a24a66374c69d83cc4ca.jpg?1" alt="明日之后鱼丸粗面">鱼丸粗面</a></li>
+                                                            <li rel="3"><a href="#" onclick="return showSP(127);"><img src="cdn/uploads/userup/1812/ertong_2777447909a60ffcec1a7001d2706a2bc4ca.jpg?1" alt="明日之后蓝莓饼干">蓝莓饼干</a></li>
+                                                            <li rel="6"><a href="#" onclick="return showSP(126);"><img src="cdn/uploads/userup/1812/ertong_b55725fbfa27f78d4c0de52ca3556b6bc4ca.jpg?1" alt="明日之后清炖鱼汤">清炖鱼汤</a></li>
+                                                            <li rel="3"><a href="#" onclick="return showSP(125);"><img src="cdn/uploads/userup/1812/ertong_90abadc001659d148badad58dab9a13ac4ca.jpg?1" alt="明日之后炸鱼饼">炸鱼饼</a></li>
+                                                            <li rel="8"><a href="#" onclick="return showSP(124);"><img src="cdn/uploads/userup/1812/ertong_f897a9f70818bf9e533cb391a1551be7c4ca.jpg?1" alt="明日之后蔬菜鱼丸汤">蔬菜鱼丸汤</a></li>
+                                                            <li rel="7"><a href="#" onclick="return showSPCL(123);"><img src="cdn/uploads/userup/1812/ertong_8c8bfd1ed476d5bd456381e1982b3012c4ca.jpg?1" alt="明日之后蓝莓">蓝莓</a></li>
+                                                            <li rel="8"><a href="#" onclick="return showSPCL(122);"><img src="cdn/uploads/userup/1812/ertong_58c55726f9714d3ca7d0717c99ff73a5c4ca.jpg?1" alt="明日之后树根蛋糕">树根蛋糕</a></li>
+                                                            <li rel="8"><a href="#" onclick="return showSPCL(121);"><img src="cdn/uploads/userup/1812/ertong_0d11a351371b8ad3bc1406022940a175c4ca.jpg?1" alt="明日之后可乐小子饼干">可乐小子饼干</a></li>
+                                                            <li rel="4"><a href="#" onclick="return showSP(120);"><img src="cdn/uploads/userup/1812/ertong_54bd8d59ad76323b57ee48c380c78c82c4ca.jpg?1" alt="明日之后杂菌汤">杂菌汤</a></li>
+                                                            <li rel="4" data-zjtj="1"><a href="#" onclick="return showSP(115);"><img src="cdn/uploads/userup/1812/ertong_ce295500444ef6f11aeb3bbc221c5791c4ca.jpg?1" alt="明日之后龙虾大餐">龙虾大餐</a></li>
+                                                            <li style="display:none" rel="8" data-zjtj="1"><a href="#" onclick="return showSP(114);"><img lz_src="cdn/uploads/userup/1812/ertong_2a8476dbe2428ac92bb856119ac4fa15.jpg?1" alt="明日之后锦鲤刺身">锦鲤刺身</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(119);"><img lz_src="cdn/uploads/userup/1812/ertong_ef8c802761117baf1abd5156dc131b5a.jpg?1" alt="明日之后蒸螃蟹">蒸螃蟹</a></li>
+                                                            <li style="display:none" rel="5"><a href="#" onclick="return showSP(117);"><img lz_src="cdn/uploads/userup/1812/ertong_c84fe56242f426c9e783d4446eddce2c.jpg?1" alt="明日之后蒸河虾">蒸河虾</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(38);"><img lz_src="cdn/uploads/userup/1811/ertong_2e1090bbd6c8842cc614bb1134d719ac.jpg?1" alt="明日之后蜜汁烤肉">蜜汁烤肉</a></li>
+                                                            <li style="display:none" rel="5" data-zjtj="1"><a href="#" onclick="return showSP(30);"><img lz_src="cdn/uploads/userup/1811/ertong_94dbe346e1479abe78c356cdc0352c5a.jpg?1" alt="明日之后果酱面包">果酱面包</a></li>
+                                                            <li style="display:none" rel="4" data-zjtj="1"><a href="#" onclick="return showSP(34);"><img lz_src="cdn/uploads/userup/1811/ertong_197665a898d916fa4bdf339c6b334378.jpg?1" alt="明日之后烤肉">烤肉</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(85);"><img lz_src="cdn/uploads/userup/1811/ertong_463f76ffa65a93aaa28960d0069a366f.jpg?1" alt="明日之后烤河豚">烤河豚</a></li>
+                                                            <li style="display:none" rel="3" data-zjtj="1"><a href="#" onclick="return showSP(24);"><img lz_src="cdn/uploads/userup/1902/ertong_c6d676b50d60525e11ee75cca27a5820.jpg?1" alt="明日之后草莓果冻">草莓果冻</a></li>
+                                                            <li style="display:none" rel="2" data-zjtj="1"><a href="#" onclick="return showSP(14);"><img lz_src="cdn/uploads/userup/1902/ertong_267824c422e9c3eac1b1e215362bda59.jpg?1" alt="明日之后肉酱意大利面">肉酱意大利面</a></li>
+                                                            <li style="display:none" rel="2" data-zjtj="1"><a href="#" onclick="return showSP(16);"><img lz_src="cdn/uploads/userup/1811/ertong_b1d928891b2a96814bbb82b48b64c446.jpg?1" alt="明日之后水果派">水果派</a></li>
+                                                            <li style="display:none" rel="2" data-zjtj="1"><a href="#" onclick="return showSP(21);"><img lz_src="cdn/uploads/userup/1811/ertong_4540a447ecfd994a01d6bf16f5a9715f.jpg?1" alt="明日之后营养煨炖">营养煨炖</a></li>
+                                                            <li style="display:none" rel="2" data-zjtj="1"><a href="#" onclick="return showSP(40);"><img lz_src="cdn/uploads/userup/1811/ertong_70c42ab45b89d8f937019e9bda693f34.jpg?1" alt="明日之后三明治">三明治</a></li>
+                                                            <li style="display:none" rel="2" data-zjtj="1"><a href="#" onclick="return showSP(49);"><img lz_src="cdn/uploads/userup/1902/ertong_795ca311ec6c66ba82eeb771cbedd153.jpg?1" alt="明日之后特制披萨">特制披萨</a></li>
+                                                            <li style="display:none" rel="1" data-zjtj="1"><a href="#" onclick="return showSP(18);"><img lz_src="cdn/uploads/userup/1811/ertong_889e3e95945a7a9e4d2851d935c62f52.jpg?1" alt="明日之后蜜浇蘑菇">蜜浇蘑菇</a></li>
+                                                            <li style="display:none" rel="1" data-zjtj="1"><a href="#" onclick="return showSP(27);"><img lz_src="cdn/uploads/userup/1811/ertong_5adf2b0f7deca5bcee8f83986599878d.jpg?1" alt="明日之后蔬果沙拉">蔬果沙拉</a></li>
+                                                            <li style="display:none" rel="1" data-zjtj="1"><a href="#" onclick="return showSP(35);"><img lz_src="cdn/uploads/userup/1811/ertong_144c9af3dd47c018db1124a3cf270bd4.jpg?1" alt="明日之后什锦拼盘">什锦拼盘</a></li>
+                                                            <li style="display:none" rel="1" data-zjtj="1"><a href="#" onclick="return showSP(42);"><img lz_src="cdn/uploads/userup/1811/ertong_d37967d33ca75df2ec0cfd39e638fb4e.jpg?1" alt="明日之后葡式蛋挞">葡式蛋挞</a></li>
+                                                            <li style="display:none" rel="1" data-zjtj="1"><a href="#" onclick="return showSP(53);"><img lz_src="cdn/uploads/userup/1811/ertong_d90d223ecffae4a6f39755acda02cb59.jpg?1" alt="明日之后蜂蜜牛角包">蜂蜜牛角包</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(134);"><img lz_src="cdn/uploads/userup/1902/ertong_2b88962902c5d975ae03675330926fb7.jpg?1" alt="明日之后红豆">红豆</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(133);"><img lz_src="cdn/uploads/userup/1902/ertong_8784b54e17095a26a0694e7217f02b4b.jpg?1" alt="明日之后花生">花生</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(132);"><img lz_src="cdn/uploads/userup/1902/ertong_bd443c632340453a05ec060ee0f5a593.jpg?1" alt="明日之后冬枣">冬枣</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(131);"><img lz_src="cdn/uploads/userup/1902/ertong_cf606fc4cf6154a2cf765bb535759134.jpg?1" alt="明日之后芝麻">芝麻</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(118);"><img lz_src="cdn/uploads/userup/1812/ertong_924b445ca9386c67c18a68c053deba37.jpg?1" alt="明日之后河蟹">河蟹</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(116);"><img lz_src="cdn/uploads/userup/1812/ertong_cb189b962ebdcae569ffb7c0807dab18.jpg?1" alt="明日之后对虾">对虾</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(113);"><img lz_src="cdn/uploads/userup/1812/ertong_74efba2a4b898b93a84465c7f02ad7b5.jpg?1" alt="明日之后锦鲤">锦鲤</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(112);"><img lz_src="cdn/uploads/userup/1812/ertong_972078f6ac2b7febc9e971baa3b82397.jpg?1" alt="明日之后龙虾">龙虾</a></li>
+                                                            <li style="display:none" rel="2"><a href="#" onclick="return showSP(101);"><img lz_src="cdn/uploads/userup/1811/ertong_282670f2f69ea65e16f25fa52d16e5ea.jpg?1" alt="明日之后胡萝卜肉饼">胡萝卜肉饼</a></li>
+                                                            <li style="display:none" rel="3"><a href="#" onclick="return showSP(100);"><img lz_src="cdn/uploads/userup/1811/ertong_4a19ffd81b2e817072821137bf828808.jpg?1" alt="明日之后草莓酸奶冰">草莓酸奶冰</a></li>
+                                                            <li style="display:none" rel="5"><a href="#" onclick="return showSPCL(99);"><img lz_src="cdn/uploads/userup/1811/ertong_ec6b42ff3580e2194cce85b3bba7003c.jpg?1" alt="明日之后鸡腿便当">鸡腿便当</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(98);"><img lz_src="cdn/uploads/userup/1811/ertong_775570cdd0915988f4acecef19aa550e.jpg?1" alt="明日之后蘑菇浓汤">蘑菇浓汤</a></li>
+                                                            <li style="display:none" rel="5"><a href="#" onclick="return showSP(97);"><img lz_src="cdn/uploads/userup/1811/ertong_17525253c68333c83fbab30305fd6c1e.jpg?1" alt="明日之后炸南瓜条">炸南瓜条</a></li>
+                                                            <li style="display:none" rel="2"><a href="#" onclick="return showSP(96);"><img lz_src="cdn/uploads/userup/1811/ertong_c95f3264e4b92d0a5b618975d68f9f8f.jpg?1" alt="明日之后牛奶炖肉">牛奶炖肉</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(95);"><img lz_src="cdn/uploads/userup/1811/ertong_daabe348ff35751faeb29b9be3cd19ee.jpg?1" alt="明日之后黄油煎松茸">黄油煎松茸</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(94);"><img lz_src="cdn/uploads/userup/1811/ertong_c90c6b764fe9b836a745bc6ed5544632.jpg?1" alt="明日之后萝卜">萝卜</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(93);"><img lz_src="cdn/uploads/userup/1811/ertong_7c83ba156669539e6f9a7bf1c68078b7.jpg?1" alt="明日之后洞穴菇">洞穴菇</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(92);"><img lz_src="cdn/uploads/userup/1811/ertong_54cd687e736f2c1790b71872d3a78c2d.jpg?1" alt="明日之后里脊肉">里脊肉</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(91);"><img lz_src="cdn/uploads/userup/1811/ertong_abc944ffd4be64ad88db63c7bb7fff31.jpg?1" alt="明日之后松茸">松茸</a></li>
+                                                            <li style="display:none" rel="3"><a href="#" onclick="return showSP(90);"><img lz_src="cdn/uploads/userup/1811/ertong_952e8732489aa43156a01ab61030c9fb.jpg?1" alt="明日之后烤鲶鱼">烤鲶鱼</a></li>
+                                                            <li style="display:none" rel="3"><a href="#" onclick="return showSP(89);"><img lz_src="cdn/uploads/userup/1811/ertong_90bdd46625a3e53b8130e05240bdb803.jpg?1" alt="明日之后烤鲤鱼">烤鲤鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(88);"><img lz_src="cdn/uploads/userup/1811/ertong_e534a0a964704873cdc7332e093175e3.jpg?1" alt="明日之后草鱼">草鱼</a></li>
+                                                            <li style="display:none" rel="3"><a href="#" onclick="return showSP(87);"><img lz_src="cdn/uploads/userup/1811/ertong_327dbc9dda872a8a467b24bba365adac.jpg?1" alt="明日之后烤草鱼">烤草鱼</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(86);"><img lz_src="cdn/uploads/userup/1811/ertong_2a6c78f71cefd8766887526dc1475414.jpg?1" alt="明日之后烤鳜鱼">烤鳜鱼</a></li>
+                                                            <li style="display:none" rel="1"><a href="#" onclick="return showSP(84);"><img lz_src="cdn/uploads/userup/1811/ertong_29193930b7a95352854ca32b51b9b444.jpg?1" alt="明日之后烤罗非鱼">烤罗非鱼</a></li>
+                                                            <li style="display:none" rel="5"><a href="#" onclick="return showSP(83);"><img lz_src="cdn/uploads/userup/1811/ertong_119991000eb84d07ee4157573816fb64.jpg?1" alt="明日之后烤银鲳鱼">烤银鲳鱼</a></li>
+                                                            <li style="display:none" rel="3"><a href="#" onclick="return showSP(82);"><img lz_src="cdn/uploads/userup/1811/ertong_f1b085645b273ae028d8377bd06e1f79.jpg?1" alt="明日之后烤带鱼">烤带鱼</a></li>
+                                                            <li style="display:none" rel="1"><a href="#" onclick="return showSP(81);"><img lz_src="cdn/uploads/userup/1811/ertong_2961bd788d33aa617dd342ceb1f139c1.jpg?1" alt="明日之后烤鲑鱼">烤鲑鱼</a></li>
+                                                            <li style="display:none" rel="3"><a href="#" onclick="return showSP(80);"><img lz_src="cdn/uploads/userup/1811/ertong_5def21b4a29acfd9a407079cbd82122e.jpg?1" alt="明日之后烤石斑鱼">烤石斑鱼</a></li>
+                                                            <li style="display:none" rel="3"><a href="#" onclick="return showSP(79);"><img lz_src="cdn/uploads/userup/1811/ertong_7ebf14bfa6827d8d16dd99a5f0804261.jpg?1" alt="明日之后烤多宝鱼">烤多宝鱼</a></li>
+                                                            <li style="display:none" rel="3"><a href="#" onclick="return showSP(78);"><img lz_src="cdn/uploads/userup/1811/ertong_db4209b79ca9492d4fbc18225c36967c.jpg?1" alt="明日之后烤苏眉鱼">烤苏眉鱼</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(77);"><img lz_src="cdn/uploads/userup/1811/ertong_8718183953ce30bde3a162ef5310b760.jpg?1" alt="明日之后烤黄鱼">烤黄鱼</a></li>
+                                                            <li style="display:none" rel="1"><a href="#" onclick="return showSP(76);"><img lz_src="cdn/uploads/userup/1811/ertong_5385df085350abd6ac500674e7a1fc45.jpg?1" alt="明日之后烤鹦嘴鱼">烤鹦嘴鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(75);"><img lz_src="cdn/uploads/userup/1811/ertong_0ad63c905592b17eb65cae403cb96a9d.jpg?1" alt="明日之后鹦嘴鱼">鹦嘴鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(74);"><img lz_src="cdn/uploads/userup/1811/ertong_dea117c8fdf9fb0a43e1289e78014720.jpg?1" alt="明日之后苏眉鱼">苏眉鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(73);"><img lz_src="cdn/uploads/userup/1811/ertong_8a83f406106e47929f8accf662bac6c3.jpg?1" alt="明日之后多宝鱼">多宝鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(72);"><img lz_src="cdn/uploads/userup/1811/ertong_d84c6721a3a24e7e8d971fb020e5301f.jpg?1" alt="明日之后红石斑鱼">红石斑鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(71);"><img lz_src="cdn/uploads/userup/1811/ertong_fb509625740877dffdea4b9b673380a5.jpg?1" alt="明日之后鲑鱼">鲑鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(70);"><img lz_src="cdn/uploads/userup/1811/ertong_36dd985df8a5adbffea834b7690795c5.jpg?1" alt="明日之后大黄鱼">大黄鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(69);"><img lz_src="cdn/uploads/userup/1811/ertong_29115da41c46322859d2d35cf67a58bc.jpg?1" alt="明日之后带鱼">带鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(68);"><img lz_src="cdn/uploads/userup/1811/ertong_3d6131040ab4958e53104a35839ce654.jpg?1" alt="明日之后银鲳鱼">银鲳鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(67);"><img lz_src="cdn/uploads/userup/1811/ertong_91d81ff1d436e266663ebf1a12167267.jpg?1" alt="明日之后红罗非鱼">红罗非鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(66);"><img lz_src="cdn/uploads/userup/1811/ertong_7c13d77cd6281f5ac5bd0e3e2ef471ea.jpg?1" alt="明日之后河豚">河豚</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(65);"><img lz_src="cdn/uploads/userup/1811/ertong_223e067d699c2cbd8c32926f0ad5c966.jpg?1" alt="明日之后鳜鱼">鳜鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(64);"><img lz_src="cdn/uploads/userup/1811/ertong_241a231de38f8e928e2ac9add9f6f5f3.jpg?1" alt="明日之后鲤鱼">鲤鱼</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(63);"><img lz_src="cdn/uploads/userup/1811/ertong_a4ab36b3ccb9380ab61c61a5162120e6.jpg?1" alt="明日之后鲶鱼">鲶鱼</a></li>
+                                                            <li style="display:none" rel="5"><a href="#" onclick="return showSP(62);"><img lz_src="cdn/uploads/userup/1811/ertong_dd6b5d461ecfcad090ded98e980b056f.jpg?1" alt="明日之后果酱">果酱</a></li>
+                                                            <li style="display:none" rel="2"><a href="#" onclick="return showSP(61);"><img lz_src="cdn/uploads/userup/1811/ertong_77b42e57b8ffa5162787b0ce9bc5d219.jpg?1" alt="明日之后肉丸子">肉丸子</a></li>
+                                                            <li style="display:none" rel="1"><a href="#" onclick="return showSP(52);"><img lz_src="cdn/uploads/userup/1811/ertong_2e3924644f98367a0321e4bc70495dbf.jpg?1" alt="明日之后蘑菇乌冬面">蘑菇乌冬面</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(51);"><img lz_src="cdn/uploads/userup/1811/ertong_cafffb9059dfbf6b7db787f70b0249fb.jpg?1" alt="明日之后水果牛奶">水果牛奶</a></li>
+                                                            <li style="display:none" rel="6"><a href="#" onclick="return showSP(50);"><img lz_src="cdn/uploads/userup/1811/ertong_d8faaebd5d35a427f4e14a7d2fdc7251.jpg?1" alt="明日之后果味棒冰">果味棒冰</a></li>
+                                                            <li style="display:none" rel="6"><a href="#" onclick="return showSP(48);"><img lz_src="cdn/uploads/userup/1811/ertong_9a595421f43209d30a97ecc8791911a8.jpg?1" alt="明日之后水果冰沙">水果冰沙</a></li>
+                                                            <li style="display:none" rel="3"><a href="#" onclick="return showSP(47);"><img lz_src="cdn/uploads/userup/1811/ertong_8e0b2244146d315490e74c9a243862c2.jpg?1" alt="明日之后奶糖">奶糖</a></li>
+                                                            <li style="display:none" rel="2"><a href="#" onclick="return showSP(46);"><img lz_src="cdn/uploads/userup/1811/ertong_97ff64485284177379bc411e09db320f.jpg?1" alt="明日之后肉馅千层饼">肉馅千层饼</a></li>
+                                                            <li style="display:none" rel="5"><a href="#" onclick="return showSP(45);"><img lz_src="cdn/uploads/userup/1811/ertong_ee73a0e40fbb9a460b64ca53d7bfbeb9.jpg?1" alt="明日之后烤面包">烤面包</a></li>
+                                                            <li style="display:none" rel="1"><a href="#" onclick="return showSP(44);"><img lz_src="cdn/uploads/userup/1811/ertong_0b1b44b294096bedc422a4b469f52756.jpg?1" alt="明日之后奶味牛角包">奶味牛角包</a></li>
+                                                            <li style="display:none" rel="6"><a href="#" onclick="return showSP(43);"><img lz_src="cdn/uploads/userup/1811/ertong_d833e6f6287923058a07c231fcabd3c6.jpg?1" alt="明日之后牛奶布丁">牛奶布丁</a></li>
+                                                            <li style="display:none" rel="1"><a href="#" onclick="return showSP(41);"><img lz_src="cdn/uploads/userup/1811/ertong_c2a1595d7c81e30a4b52d7b986b67521.jpg?1" alt="明日之后蔬菜千层饼">蔬菜千层饼</a></li>
+                                                            <li style="display:none" rel="6"><a href="#" onclick="return showSP(39);"><img lz_src="cdn/uploads/userup/1811/ertong_d4c74b815226c29ad524a4897744b7fe.jpg?1" alt="明日之后蜂糖水">蜂糖水</a></li>
+                                                            <li style="display:none" rel="6"><a href="#" onclick="return showSP(37);"><img lz_src="cdn/uploads/userup/1811/ertong_4b4cf6f25c3051acac1ce974fb067a87.jpg?1" alt="明日之后热牛奶">热牛奶</a></li>
+                                                            <li style="display:none" rel="6"><a href="#" onclick="return showSP(36);"><img lz_src="cdn/uploads/userup/1811/ertong_5f926fad2849a2de0527fa6b27d6921a.jpg?1" alt="明日之后甜菜粥">甜菜粥</a></li>
+                                                            <li style="display:none" rel="1"><a href="#" onclick="return showSP(33);"><img lz_src="cdn/uploads/userup/1811/ertong_dc7393fb80c9f0cc16c2351d5797b6be.jpg?1" alt="明日之后蒸烤蔬菜">蒸烤蔬菜</a></li>
+                                                            <li style="display:none" rel="2"><a href="#" onclick="return showSP(32);"><img lz_src="cdn/uploads/userup/1811/ertong_022cba161a4899924662cd7a4b538880.jpg?1" alt="明日之后蘑菇肉串">蘑菇肉串</a></li>
+                                                            <li style="display:none" rel="2"><a href="#" onclick="return showSP(31);"><img lz_src="cdn/uploads/userup/1811/ertong_5184e1b13e6cd78d167afcd58b0555b2.jpg?1" alt="明日之后肉串">肉串</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(29);"><img lz_src="cdn/uploads/userup/1811/ertong_5b04058f9eefe4f3b87e29b6529d090c.jpg?1" alt="明日之后蜜糖">蜜糖</a></li>
+                                                            <li style="display:none" rel="5"><a href="#" onclick="return showSP(28);"><img lz_src="cdn/uploads/userup/1811/ertong_6cfee2f3b0739cdc8808dc401a213d04.jpg?1" alt="明日之后果汁">果汁</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(26);"><img lz_src="cdn/uploads/userup/1811/ertong_d0a38ecb1e1399ed92c5763a34fc2df8.jpg?1" alt="明日之后草莓松饼">草莓松饼</a></li>
+                                                            <li style="display:none" rel="3"><a href="#" onclick="return showSP(25);"><img lz_src="cdn/uploads/userup/1902/ertong_d47eadc92e0e7d06e576d70b93424ef7.jpg?1" alt="明日之后水果蛋糕">水果蛋糕</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(23);"><img lz_src="cdn/uploads/userup/1811/ertong_5892624fd8547105643f412631d58451.jpg?1" alt="明日之后肉扒大餐">肉扒大餐</a></li>
+                                                            <li style="display:none" rel="6"><a href="#" onclick="return showSP(22);"><img lz_src="cdn/uploads/userup/1811/ertong_d4af632ba4a573d9df0bf6141f24b049.jpg?1" alt="明日之后水饺">水饺</a></li>
+                                                            <li style="display:none" rel="6"><a href="#" onclick="return showSP(20);"><img lz_src="cdn/uploads/userup/1811/ertong_5bed409006d553421ca619d9e5c942ad.jpg?1" alt="明日之后奶油浓汤">奶油浓汤</a></li>
+                                                            <li style="display:none" rel="1"><a href="#" onclick="return showSP(19);"><img lz_src="cdn/uploads/userup/1811/ertong_581f4a4a2cc68ba6f74fb542ec0c3dc3.jpg?1" alt="明日之后烤蘑菇">烤蘑菇</a></li>
+                                                            <li style="display:none" rel="6"><a href="#" onclick="return showSP(17);"><img lz_src="cdn/uploads/userup/1811/ertong_621159250c6c5287c6ebfd59bf6c4aa3.jpg?1" alt="明日之后热水">热水</a></li>
+                                                            <li style="display:none" rel="4"><a href="#" onclick="return showSP(15);"><img lz_src="cdn/uploads/userup/1811/ertong_f19ba86635b08d34fb324120a5b3ba3e.jpg?1" alt="明日之后水果蜜饯">水果蜜饯</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(13);"><img lz_src="cdn/uploads/userup/1811/ertong_b61cb2c6fb4b14d5aef82bcd141f4fda.jpg?1" alt="明日之后精致面粉">精致面粉</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(12);"><img lz_src="cdn/uploads/userup/1811/ertong_2d405e44419ef7b3ba7627c0fda4b8d7.jpg?1" alt="明日之后粗制面粉">粗制面粉</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(11);"><img lz_src="cdn/uploads/userup/1811/ertong_cec3ee783daa5a3dfb72a8fd757a6f01.jpg?1" alt="明日之后牛奶">牛奶</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(10);"><img lz_src="cdn/uploads/userup/1811/ertong_12d50e6a235eb67ef8c6e7b21c90e634.jpg?1" alt="明日之后冰块">冰块</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(9);"><img lz_src="cdn/uploads/userup/1811/ertong_9fa4d6e5708486ef6b1cf0c98be0de10.jpg?1" alt="明日之后蘑菇">蘑菇</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(8);"><img lz_src="cdn/uploads/userup/1811/ertong_7f2aebb45090e6208d8b4f0b739f8e9d.jpg?1" alt="明日之后蜂蜜">蜂蜜</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(7);"><img lz_src="cdn/uploads/userup/1811/ertong_05a2c0d043a7f97ea2fcc5c4c59dc8ae.jpg?1" alt="明日之后草莓">草莓</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(6);"><img lz_src="cdn/uploads/userup/1811/ertong_39c4a9426ee7681ab4f1147166034a97.jpg?1" alt="明日之后西瓜">西瓜</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(5);"><img lz_src="cdn/uploads/userup/1811/ertong_91f51dae1277a5bca371b446a35d2a4e.jpg?1" alt="明日之后南瓜">南瓜</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(4);"><img lz_src="cdn/uploads/userup/1811/ertong_ad8cf333493ebea96c0e2436461941a0.jpg?1" alt="明日之后油菜">油菜</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(3);"><img lz_src="cdn/uploads/userup/1811/ertong_98d947a9509aa9ff03b94c714dace358.jpg?1" alt="明日之后浆果">浆果</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(2);"><img lz_src="cdn/uploads/userup/1811/ertong_926eec90c908a61dc6fed0e7165aaa8e.jpg?1" alt="明日之后腿肉">腿肉</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(1);"><img lz_src="cdn/uploads/userup/1811/ertong_ab1c84856a42fb0b87ce56eb57b6b2cf.jpg?1" alt="明日之后肋条肉">肋条肉</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(111);"><img lz_src="cdn/uploads/userup/1811/ertong_cccb8e01e26f7ca5f730f76a7ed95d5a.jpg?1" alt="明日之后破损熊皮肉">破损熊皮肉</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(110);"><img lz_src="cdn/uploads/userup/1811/ertong_979df1e2c0eb1d3e4888198c931565eb.jpg?1" alt="明日之后肮脏的猪蹄">肮脏的猪蹄</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(109);"><img lz_src="cdn/uploads/userup/1811/ertong_6bcf8bff84de69ffdc036b7427585f2c.jpg?1" alt="明日之后干枯熊爪">干枯熊爪</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(108);"><img lz_src="cdn/uploads/userup/1811/ertong_3a7674d8aee4e1f4b13396b6f9087d5e.jpg?1" alt="明日之后腐烂狼皮">腐烂狼皮</a></li>
+                                                            <li style="display:none" rel="7"><a href="#" onclick="return showSPCL(107);"><img lz_src="cdn/uploads/userup/1811/ertong_0355eae1b784a02ab9a5dcabfc96d742.jpg?1" alt="明日之后掉毛的狼尾巴">掉毛的狼尾巴</a></li>
+                                                            <li style="display:none" rel="8"><a href="#" onclick="return showSPCL(106);"><img lz_src="cdn/uploads/userup/1811/ertong_c8e2be53bbdf8339ad90b1d8a06539f6.jpg?1" alt="明日之后彩虹天堂・零卡">彩虹天堂・零卡</a></li>
+                                                            <li style="display:none" rel="8"><a href="#" onclick="return showSPCL(105);"><img lz_src="cdn/uploads/userup/1811/ertong_0e88cd43077cf1e7bb150902d7889b32.jpg?1" alt="明日之后彩虹天堂">彩虹天堂</a></li>
+                                                            <li style="display:none" rel="8"><a href="#" onclick="return showSPCL(104);"><img lz_src="cdn/uploads/userup/1811/ertong_5184e1b13e6cd78d167afcd58b0555b2.jpg?1" alt="明日之后感染烤肉串">感染烤肉串</a></li>
+                                                            <li style="display:none" rel="8"><a href="#" onclick="return showSPCL(103);"><img lz_src="cdn/uploads/userup/1811/ertong_98d947a9509aa9ff03b94c714dace358.jpg?1" alt="明日之后整蛊果子">整蛊果子</a></li>
+                                                            <li style="display:none" rel="8"><a href="#" onclick="return showSP(102);"><img lz_src="cdn/uploads/userup/1811/ertong_41f603a09f184d400e1fe88f57d7eab8.jpg?1" alt="明日之后不可描述的食物">不可描述的食物</a></li>
+                                                    </ul>
+                        <a class="btn mt20" id="btn_sp_more">查看更多</a>
+                    </div>
+                </div>
+                <!-- 食谱list end -->
+
+                <!-- 食谱info -->
+                <div class="tab-page" id="sp_info_div" style="display:none">
+                    <!-- 合成2 -->
+                    <div class="tab-djcl" id="sp_info">
+                    </div>
+                    <a href="#" class="btn mt20" onclick="backSP();return false;">返回食谱大全</a>
+                </div>
+                <!-- 食谱info end -->
+            </div>
+            <div class="tab-con" style="display:none">
+                <form id="mnq_cl_form">
+                    <div class="search cf">
+                        <input type="submit" class="input2 fr" value="搜索">
+                        <input type="text" class="input1" value="请输入要查询的基础食材" onfocus="if(this.value=='请输入要查询的基础食材') this.value='';"
+                               onblur="if(this.value=='') this.value='请输入要查询的基础食材';">
+                    </div>
+                </form>
+                <div class="gropuinfo" id="mnq_cl_div">
+                    <div class="group">
+                        <div class="grp-clear" onclick="resetBnt();return false;"></div>
+                        <ul class="grplist cf">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="grpline"></div>
+                    <div class="grptext">
+                        <div class="grpjsinfo">
+                            <div class="img"><img src="cdn/survive/static/chengpin/wap/v1/images/icon_question.png" alt=""></div>
+                            <div class="name">
+                                <p class="form"><a href="https://m.bbs.3839.com/thread-89783.htm" data-type="forum_detail" data-id="89783" style="text-decoration:underline;">去论坛提问</a></p>
+                                <strong>未知食物</strong>
+                            </div>
+                        </div>
+                        <div class="txt">该食谱暂未开发，你可以【<a href="https://m.bbs.3839.com/thread-89783.htm" data-type="forum_detail" data-id="89783" style="text-decoration:underline;">去论坛提问</a>】其他玩家~如发现遗漏或错误，欢迎前往【<a href="https://m.bbs.3839.com/thread-88876.htm" data-type="forum_detail" data-id="88876" style="text-decoration:underline;">补充题目</a>】有机会获得爆米花奖励哦！</div>
+                    </div>
+                    <div class="grptext" style="display:none;">
+                    </div>
+                </div>
+                <div class="cldiv">
+                    <ul class="cllists cf" id="mnq_cl_list">
+                                                    <li data-id="40"><img lz_src="cdn/uploads/userup/1902/ertong_4ae077fcc6c76b2838ee8912ea76a662.png?1" alt=""><p>红豆</p></li>
+                                                    <li data-id="39"><img lz_src="cdn/uploads/userup/1902/ertong_dccf001ef37ddaace6594a0675870724.png?1" alt=""><p>花生</p></li>
+                                                    <li data-id="38"><img lz_src="cdn/uploads/userup/1902/ertong_191e2ddbe968967f1fe081636880d242.png?1" alt=""><p>芝麻</p></li>
+                                                    <li data-id="37"><img lz_src="cdn/uploads/userup/1902/ertong_a291893395f790532892257cbb57d9de.png?1" alt=""><p>冬枣</p></li>
+                                                    <li data-id="36"><img lz_src="cdn/uploads/userup/1901/ertong_eecd37f46b4cf3231ac1379630d208d3.png?1" alt=""><p>河蟹</p></li>
+                                                    <li data-id="35"><img lz_src="cdn/uploads/userup/1901/ertong_4bb615e15c61ea9f79e44bf1db87a71c.png?1" alt=""><p>龙虾</p></li>
+                                                    <li data-id="34"><img lz_src="cdn/uploads/userup/1901/ertong_a3b88ada81d04399841559413c0a10f3.png?1" alt=""><p>对虾</p></li>
+                                                    <li data-id="33"><img lz_src="cdn/uploads/userup/1901/ertong_8e3afb4462dd470260d355850687f2ae.png?1" alt=""><p>锦鲤</p></li>
+                                                    <li data-id="32"><img lz_src="cdn/uploads/userup/1901/ertong_c65e055198c93c09454ffe95521379d7.png?1" alt=""><p>蓝莓</p></li>
+                                                    <li data-id="31"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/bingk.png" alt=""><p>冰块</p></li>
+                                                    <li data-id="30"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/fengm.png" alt=""><p>蜂蜜</p></li>
+                                                    <li data-id="29"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/jzmf.png" alt=""><p>粗制面粉</p></li>
+                                                    <li data-id="28"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/czmf.png" alt=""><p>精制面粉</p></li>
+                                                    <li data-id="27"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/caog.png" alt=""><p>草菇</p></li>
+                                                    <li data-id="26"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/dxg.png" alt=""><p>洞穴菇</p></li>
+                                                    <li data-id="25"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/songr.png" alt=""><p>松茸</p></li>
+                                                    <li data-id="24"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/niun.png" alt=""><p>牛奶</p></li>
+                                                    <li data-id="23"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/ltr.png" alt=""><p>肋条肉</p></li>
+                                                    <li data-id="22"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/jr.png" alt=""><p>里脊肉</p></li>
+                                                    <li data-id="21"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/tr.png" alt=""><p>腿肉</p></li>
+                                                    <li style="display:none" data-id="20"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/hlb.png" alt=""><p>胡萝卜</p></li>
+                                                    <li style="display:none" data-id="19"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/youc.png" alt=""><p>油菜</p></li>
+                                                    <li style="display:none" data-id="18"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/nang.png" alt=""><p>南瓜</p></li>
+                                                    <li style="display:none" data-id="17"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/caom.png" alt=""><p>草莓</p></li>
+                                                    <li style="display:none" data-id="16"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/jiangg.png" alt=""><p>浆果</p></li>
+                                                    <li style="display:none" data-id="15"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/xig.png" alt=""><p>西瓜</p></li>
+                                                    <li style="display:none" data-id="14"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/niany.png" alt=""><p>鲶鱼</p></li>
+                                                    <li style="display:none" data-id="13"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/liy.png" alt=""><p>鲤鱼</p></li>
+                                                    <li style="display:none" data-id="12"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/caoy.png" alt=""><p>草鱼</p></li>
+                                                    <li style="display:none" data-id="11"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/juey.png" alt=""><p>鳜鱼</p></li>
+                                                    <li style="display:none" data-id="10"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/het.png" alt=""><p>河豚</p></li>
+                                                    <li style="display:none" data-id="9"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/hlfy.png" alt=""><p>罗非鱼</p></li>
+                                                    <li style="display:none" data-id="8"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/ycy.png" alt=""><p>银鲳鱼</p></li>
+                                                    <li style="display:none" data-id="7"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/daiy.png" alt=""><p>带鱼</p></li>
+                                                    <li style="display:none" data-id="6"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/guiy.png" alt=""><p>鲑鱼</p></li>
+                                                    <li style="display:none" data-id="5"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/hsby.png" alt=""><p>石斑鱼</p></li>
+                                                    <li style="display:none" data-id="4"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/dby.png" alt=""><p>多宝鱼</p></li>
+                                                    <li style="display:none" data-id="3"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/smy.png" alt=""><p>苏眉鱼</p></li>
+                                                    <li style="display:none" data-id="2"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/dhy.png" alt=""><p>黄鱼</p></li>
+                                                    <li style="display:none" data-id="1"><img lz_src="cdn/survive/static/chengpin/wap/v1/images/ll/ywzy.png" alt=""><p>鹦嘴鱼</p></li>
+                                            </ul>
+                    <a class="btn mt20" id="btn_mnq_cl_more">查看更多</a>
+                </div>
+            </div>
+            <div class="tab-con" style="display:none;">
+                <!-- NPClist -->
+                <div class="tab-first" id="npc_list_div">
+                    <form id="npc_form">
+                        <div class="search cf">
+                            <input type="submit" class="input2 fr" value="搜索">
+                            <input type="text" class="input1" value="请输入要查询的NPC" onfocus="if(this.value=='请输入要查询的NPC') this.value='';" onblur="if(this.value=='') this.value='请输入要查询的NPC';">
+                        </div>
+                    </form>
+                    <ul class="blist cf" id="npc_type">
+                        <li class="on" rel=""><a href="#">全部</a></li>
+                                                    <li rel="1"><a href="#">快乐101</a></li>
+                                                    <li rel="2"><a href="#">沙石堡</a></li>
+                                                    <li rel="3"><a href="#">秋日森林</a></li>
+                                            </ul>
+                    <div class="sx-info">
+                        <ul class="list cf" id="npc_list">
+                                                            <li rel="2"><a href="#" onclick="return showNPC(20);"><img lz_src="cdn/uploads/userup/1812/ertong_04cd7abb7cfba22a3af41ef28221014a.jpg?1" alt="明日之后智贤">智贤</a></li>
+                                                            <li rel="2"><a href="#" onclick="return showNPC(19);"><img lz_src="cdn/uploads/userup/1812/ertong_5ebdc2da1b4b7b1f1d3b21f3cf47e140.jpg?1" alt="明日之后吴宰">吴宰</a></li>
+                                                            <li rel="3"><a href="#" onclick="return showNPC(18);"><img lz_src="cdn/uploads/userup/1812/ertong_eafa4f318559c094e487da18e6640a64.jpg?1" alt="明日之后徐秀">徐秀</a></li>
+                                                            <li rel="1"><a href="#" onclick="return showNPC(17);"><img lz_src="cdn/uploads/userup/1812/ertong_cef33e786a4cbf814c1a6ffd4c9d9b1a.jpg?1" alt="明日之后汤姆">汤姆</a></li>
+                                                            <li rel="1"><a href="#" onclick="return showNPC(16);"><img lz_src="cdn/uploads/userup/1812/ertong_abdf60842ef4bd58058078921352826c.jpg?1" alt="明日之后史蒂芬">史蒂芬</a></li>
+                                                            <li rel="1"><a href="#" onclick="return showNPC(15);"><img lz_src="cdn/uploads/userup/1811/ertong_0e1cc86d0ba844a1d0370a6bca3dbac2.jpg?1" alt="明日之后文森特">文森特</a></li>
+                                                            <li rel="1"><a href="#" onclick="return showNPC(14);"><img lz_src="cdn/uploads/userup/1811/ertong_29f0d6432651fc20135d64581428c175.jpg?1" alt="明日之后费尔南多">费尔南多</a></li>
+                                                            <li rel="1"><a href="#" onclick="return showNPC(13);"><img lz_src="cdn/uploads/userup/1811/ertong_e3b738ed924de265dbbc82c9503fc2c5.jpg?1" alt="明日之后伊万">伊万</a></li>
+                                                            <li rel="2"><a href="#" onclick="return showNPC(12);"><img lz_src="cdn/uploads/userup/1811/ertong_2739174054ed384d46315f6b6685677b.jpg?1" alt="明日之后塞克斯图斯">塞克斯图斯</a></li>
+                                                            <li rel="2"><a href="#" onclick="return showNPC(11);"><img lz_src="cdn/uploads/userup/1811/ertong_ccafd454ce2208c46a7a8759593ab0b4.jpg?1" alt="明日之后塞克斯塔">塞克斯塔</a></li>
+                                                            <li rel="2"><a href="#" onclick="return showNPC(10);"><img lz_src="cdn/uploads/userup/1811/ertong_03cbe16210a54be234e3a994c3490361.jpg?1" alt="明日之后昆图斯">昆图斯</a></li>
+                                                            <li rel="1"><a href="#" onclick="return showNPC(9);"><img lz_src="cdn/uploads/userup/1811/ertong_36809787e0d337c2253c398e3f9f5c4b.jpg?1" alt="明日之后克里斯">克里斯</a></li>
+                                                            <li rel="1"><a href="#" onclick="return showNPC(8);"><img lz_src="cdn/uploads/userup/1811/ertong_c81b1e6de401d5e0460392c51f7712d6.jpg?1" alt="明日之后朱迪">朱迪</a></li>
+                                                            <li rel="1"><a href="#" onclick="return showNPC(7);"><img lz_src="cdn/uploads/userup/1811/ertong_42d16a77a650a520ff0b87106761846b.jpg?1" alt="明日之后恩研">恩研</a></li>
+                                                            <li rel="1"><a href="#" onclick="return showNPC(6);"><img lz_src="cdn/uploads/userup/1811/ertong_380c7f0468c4c0e775fc60bd29cfba5b.jpg?1" alt="明日之后长发">长发</a></li>
+                                                            <li rel="1"><a href="#" onclick="return showNPC(5);"><img lz_src="cdn/uploads/userup/1811/ertong_055bd6da93608f137aa9a1bc4720250a.jpg?1" alt="明日之后瑞秋">瑞秋</a></li>
+                                                            <li style="display:none" rel="1"><a href="#" onclick="return showNPC(4);"><img lz_src="cdn/uploads/userup/1811/ertong_6e13ba46ee78131b675fcd741f650d5d.jpg?1" alt="明日之后海德尔">海德尔</a></li>
+                                                            <li style="display:none" rel="2"><a href="#" onclick="return showNPC(3);"><img lz_src="cdn/uploads/userup/1812/ertong_4909c71e10f9a02e19fca9bb67f423fc.jpg?1" alt="明日之后善美">善美</a></li>
+                                                            <li style="display:none" rel="2"><a href="#" onclick="return showNPC(2);"><img lz_src="cdn/uploads/userup/1811/ertong_6df272d86cd4b881f4f560fd5605d609.jpg?1" alt="明日之后奎泰">奎泰</a></li>
+                                                            <li style="display:none" rel="2"><a href="#" onclick="return showNPC(1);"><img lz_src="cdn/uploads/userup/1811/ertong_0248d6506983a69299b5f1aff57f2a30.jpg?1" alt="明日之后丽娜">丽娜</a></li>
+                                                    </ul>
+                        <a class="btn mt20" id="btn_npc_more">查看更多</a>
+                    </div>
+                </div>
+                <!-- NPClist end -->
+
+                <!-- NPCinfo -->
+                <div class="tab-page" id="npc_info_div" style="display:none">
+                    <!-- 合成2 -->
+                    <div class="tab-djcl" id="npc_info">
+                    </div>
+                    <a href="#" class="btn mt20" onclick="backNPC();return false;">返回NPC大全</a>
+                </div>
+                <!-- NPCinfo end -->
+            </div>
+            <div class="tab-con" style="display: none;">
+                <!-- 配方list -->
+                <div class="tab-first" id="cp_list_div">
+                    <form id="cp_form">
+                        <div class="search cf">
+                            <input type="submit" class="input2 fr" value="搜索">
+                            <input type="text" class="input1" value="请输入要查询的配方" onfocus="if(this.value=='请输入要查询的配方') this.value='';" onblur="if(this.value=='') this.value='请输入要查询的配方';">
+                        </div>
+                    </form>
+                    <ul class="blist cf" id="cp_type">
+                        <li class="on" rel=""><a href="#">全部</a></li>
+                                                    <li rel="1"><a href="#">建筑</a></li>
+                                                    <li rel="2"><a href="#">武器</a></li>
+                                                    <li rel="3"><a href="#">护甲</a></li>
+                                                    <li rel="4"><a href="#">生存</a></li>
+                                            </ul>
+                    <div class="sx-info">
+                        <ul class="list cf" id="cp_list">
+                                                        <li rel="2"><a href="#" onclick="return showCP(229);"><img lz_src="cdn/uploads/userup/1901/ertong_8bafdd1b9bc51f276d33f06042ca6bf3.jpg?1" alt="明日之后碳素蜘蛛弓">碳素蜘蛛弓</a></li>
+                                                        <li rel="2"><a href="#" onclick="return showCP(228);"><img lz_src="cdn/uploads/userup/1901/ertong_4747fc8345e7ab815bb986c705c88724.jpg?1" alt="明日之后强袭榴弹炮">强袭榴弹炮</a></li>
+                                                        <li rel="2"><a href="#" onclick="return showCP(227);"><img lz_src="cdn/uploads/userup/1901/ertong_464ebcc1d2b33fb27cd9278440052bd2.jpg?1" alt="明日之后基础无人机">基础无人机</a></li>
+                                                        <li rel="4"><a href="#" onclick="return showCP(226);"><img lz_src="cdn/uploads/userup/1812/ertong_7b1053563e99ce37d2e8f899b1fcbfa0.jpg?1" alt="明日之后虾饵">虾饵</a></li>
+                                                        <li rel="2"><a href="#" onclick="return showCP(225);"><img lz_src="cdn/uploads/userup/1901/ertong_b141d80d74c8c2368de0ba6bad4257fa.jpg?1" alt="明日之后95式突击步枪">95式突击步枪</a></li>
+                                                        <li rel="2"><a href="#" onclick="return showCP(224);"><img lz_src="cdn/uploads/userup/1901/ertong_7be20d279a540461298517d89ec82a82.jpg?1" alt="明日之后竞技用反曲弓">竞技用反曲弓</a></li>
+                                                        <li rel="4"><a href="#" onclick="return showCP(223);"><img lz_src="cdn/uploads/userup/1812/ertong_38984dce7ab2396d0559e844b7156ff2.jpg?1" alt="明日之后随身医疗箱">随身医疗箱</a></li>
+                                                        <li rel="4"><a href="#" onclick="return showCP(222);"><img lz_src="cdn/uploads/userup/1812/ertong_aee97acef65e1e56fcad65cbffa5a89e.jpg?1" alt="明日之后高级感染药">高级感染药</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCP(221);"><img lz_src="cdn/uploads/userup/1901/ertong_607d3f110906f552d389c02cb0e2245b.jpg?1" alt="明日之后白衣天使">白衣天使</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCP(220);"><img lz_src="cdn/uploads/userup/1811/ertong_c0b4f3017777dd084964333529305004.jpg?1" alt="明日之后4级背包扩容袋">4级背包扩容袋</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCP(219);"><img lz_src="cdn/uploads/userup/1811/ertong_36dc930d7d08ffb01aa5a77bca6d995c.jpg?1" alt="明日之后暴徒外套">暴徒外套</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCP(218);"><img lz_src="cdn/uploads/userup/1811/ertong_e37532e9dd3165fbe172fd5d15cee66e.jpg?1" alt="明日之后暴徒面罩">暴徒面罩</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCP(217);"><img lz_src="cdn/uploads/userup/1811/ertong_e115edfdfe77c503b8c679ca2cd4edef.jpg?1" alt="明日之后朋克夹克">朋克夹克</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCP(216);"><img lz_src="cdn/uploads/userup/1811/ertong_e0d74d72d8f31fbcc749d42a368b6707.jpg?1" alt="明日之后狐狸背包时装">狐狸背包时装</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCP(215);"><img lz_src="cdn/uploads/userup/1811/ertong_fc9decca1f21e1ee19f48b57a82dc5b5.jpg?1" alt="明日之后粉红书包时装">粉红书包时装</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCP(214);"><img lz_src="cdn/uploads/userup/1811/ertong_4eb5e22b924a960967879cf93dbd85dc.jpg?1" alt="明日之后防弹武装">防弹武装</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(213);"><img lz_src="cdn/uploads/userup/1811/ertong_de86ac9bd1c48f19681fbac3c15da747.jpg?1" alt="明日之后朋克面罩">朋克面罩</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(212);"><img lz_src="cdn/uploads/userup/1811/ertong_103853b801a4762ff331687392d88589.jpg?1" alt="明日之后御寒棉帽">御寒棉帽</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(211);"><img lz_src="cdn/uploads/userup/1811/ertong_eeb31a1e07f6677a1f8ab2edfefea5f5.jpg?1" alt="明日之后战斗先锋">战斗先锋</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(210);"><img lz_src="cdn/uploads/userup/1811/ertong_6e16e3a9a6c310d94747546d6fe14df5.jpg?1" alt="明日之后3级背包扩容袋">3级背包扩容袋</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(209);"><img lz_src="cdn/uploads/userup/1811/ertong_70075f0ad30924ccb4060e951f315a5a.jpg?1" alt="明日之后建筑4级强化">建筑4级强化</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(208);"><img lz_src="cdn/uploads/userup/1811/ertong_9ea8352e097e2f2430e089cc5d8ea8de.jpg?1" alt="明日之后建筑3级强化">建筑3级强化</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(207);"><img lz_src="cdn/uploads/userup/1811/ertong_585715e5d9184dcd68acde2b3c54e0e0.jpg?1" alt="明日之后建筑2级强化">建筑2级强化</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(206);"><img lz_src="cdn/uploads/userup/1811/ertong_0bf35bce5422fcc404dce4ead202e7af.jpg?1" alt="明日之后建筑1级强化">建筑1级强化</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(205);"><img lz_src="cdn/uploads/userup/1811/ertong_86e38f9edaa3b2cd64bcc0e72e68dcd7.jpg?1" alt="明日之后智能特级贴墙炸弹">智能特级贴墙炸弹</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(204);"><img lz_src="cdn/uploads/userup/1811/ertong_b006ac0ab321f0255b2aec9f11901b41.jpg?1" alt="明日之后专业汽油桶">专业汽油桶</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(203);"><img lz_src="cdn/uploads/userup/1811/ertong_16a375db5d686a7e0a9624ba9c861c28.jpg?1" alt="明日之后战墙闸门">战墙闸门</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(202);"><img lz_src="cdn/uploads/userup/1811/ertong_b4f12a56c0b5dc681e925b235e9cd729.jpg?1" alt="明日之后地板电网">地板电网</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(201);"><img lz_src="cdn/uploads/userup/1811/ertong_c84724a33b51a3ca2283e15e4dd352b7.jpg?1" alt="明日之后毒气地雷">毒气地雷</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(200);"><img lz_src="cdn/uploads/userup/1811/ertong_d9e237c35c7576002b5e8e024a8d288f.jpg?1" alt="明日之后汽油桶">汽油桶</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(199);"><img lz_src="cdn/uploads/userup/1811/ertong_90bf0228ecae724448b356ea22bf4549.jpg?1" alt="明日之后蜂巢防具">蜂巢防具</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(198);"><img lz_src="cdn/uploads/userup/1811/ertong_188569349b91b76bb1a18a87d7488da1.jpg?1" alt="明日之后智能贴墙炸弹">智能贴墙炸弹</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(197);"><img lz_src="cdn/uploads/userup/1811/ertong_4649612ca7188026f5f8fd126b8ae16e.jpg?1" alt="明日之后贴墙电网">贴墙电网</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(196);"><img lz_src="cdn/uploads/userup/1811/ertong_7df5becbccfaaf4f57181c8f7b821508.jpg?1" alt="明日之后燃料箱">燃料箱</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(195);"><img lz_src="cdn/uploads/userup/1811/ertong_0f4d968b6c0571f39c522345d42337d2.jpg?1" alt="明日之后智能笼子">智能笼子</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(194);"><img lz_src="cdn/uploads/userup/1811/ertong_95a19f5d885b256c265df86c6ed5ae9e.jpg?1" alt="明日之后立柱栅栏">立柱栅栏</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(193);"><img lz_src="cdn/uploads/userup/1811/ertong_26d551d002cbfd901f13cbb44d461e09.jpg?1" alt="明日之后矮楼梯">矮楼梯</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(192);"><img lz_src="cdn/uploads/userup/1811/ertong_e4c6d1f89ccc9da0dfe80994e0cb9c6d.jpg?1" alt="明日之后立柱">立柱</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(191);"><img lz_src="cdn/uploads/userup/1811/ertong_c47cdd62f58f6ab0f08f1feea4e7ffa3.jpg?1" alt="明日之后C型窗">C型窗</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(190);"><img lz_src="cdn/uploads/userup/1811/ertong_1fda4ae3fc04a9211e0bfc4d02a212c1.jpg?1" alt="明日之后栅栏">栅栏</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(189);"><img lz_src="cdn/uploads/userup/1811/ertong_ebd164145813542a20114ac2e2748a27.jpg?1" alt="明日之后3型木质斜面墙">3型木质斜面墙</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(188);"><img lz_src="cdn/uploads/userup/1811/ertong_e19c644b626ab28f885b872a8d40fcb0.jpg?1" alt="明日之后3型木质内凹角">3型木质内凹角</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(187);"><img lz_src="cdn/uploads/userup/1811/ertong_71271ba578de3758e3bf635018c8292d.jpg?1" alt="明日之后3型木质外凸角">3型木质外凸角</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(186);"><img lz_src="cdn/uploads/userup/1811/ertong_7f03658644fc4088f86aff0d4f774ced.jpg?1" alt="明日之后3型木屋顶">3型木屋顶</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(185);"><img lz_src="cdn/uploads/userup/1811/ertong_bab0f0acd1622458ac1155c5b76d702c.jpg?1" alt="明日之后b型窗">b型窗</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(184);"><img lz_src="cdn/uploads/userup/1811/ertong_80261a24bab3c11154cf3dcf9383c6fd.jpg?1" alt="明日之后1型旧石质内凹角">1型旧石质内凹角</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(183);"><img lz_src="cdn/uploads/userup/1811/ertong_fcb79ceec1758f1ab0e8419dc29e918f.jpg?1" alt="明日之后木矮墙">木矮墙</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(182);"><img lz_src="cdn/uploads/userup/1811/ertong_7a880cb8aa0ac4b462c6ecfccfbb5a0c.jpg?1" alt="明日之后2型简陋木质斜面墙">2型简陋木质斜面墙</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(181);"><img lz_src="cdn/uploads/userup/1811/ertong_03b60e87c03848b37c11f2d6adefcdaa.jpg?1" alt="明日之后2型简陋木内凹角">2型简陋木内凹角</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(180);"><img lz_src="cdn/uploads/userup/1811/ertong_e2e8d1d9cd028e6ddd69e0e6030714c7.jpg?1" alt="明日之后2型简陋木外凸角">2型简陋木外凸角</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(179);"><img lz_src="cdn/uploads/userup/1811/ertong_18e887bfc31e16f746e2c0d5c12db28a.jpg?1" alt="明日之后2型简陋木屋顶">2型简陋木屋顶</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(178);"><img lz_src="cdn/uploads/userup/1811/ertong_04c30241ede3a0845231bfafd3639414.jpg?1" alt="明日之后a型窗">a型窗</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(177);"><img lz_src="cdn/uploads/userup/1811/ertong_64dc5e8299b833520445ef3c22535cb6.jpg?1" alt="明日之后旧石质弧形屋顶">旧石质弧形屋顶</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(176);"><img lz_src="cdn/uploads/userup/1811/ertong_cf18f3b4cfa410933e2f1e4612dae194.jpg?1" alt="明日之后旧石质弧形楼梯">旧石质弧形楼梯</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(175);"><img lz_src="cdn/uploads/userup/1811/ertong_54aba22f2d30fd7d883e58f1d3106b26.jpg?1" alt="明日之后旧石质弧形墙壁">旧石质弧形墙壁</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(174);"><img lz_src="cdn/uploads/userup/1811/ertong_7767172c0921026b43d57996d7405b7a.jpg?1" alt="明日之后旧石质扇形地板">旧石质扇形地板</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(173);"><img lz_src="cdn/uploads/userup/1811/ertong_a3eae687500281a0d8d511055e261963.jpg?1" alt="明日之后1型旧石质斜面墙">1型旧石质斜面墙</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(172);"><img lz_src="cdn/uploads/userup/1811/ertong_d61597ffda7864898b638700b31b526f.jpg?1" alt="明日之后1型旧石质外凸角">1型旧石质外凸角</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(171);"><img lz_src="cdn/uploads/userup/1811/ertong_8abc2fc0744ed6fd6d84f387699b5fc7.jpg?1" alt="明日之后1型旧石质屋顶">1型旧石质屋顶</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(170);"><img lz_src="cdn/uploads/userup/1811/ertong_49f29a7a5d91791695cee8c848d3491b.jpg?1" alt="明日之后旧木半身墙">旧木半身墙</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(169);"><img lz_src="cdn/uploads/userup/1811/ertong_2e75e7bac111c660d2b33fe9950b8132.jpg?1" alt="明日之后楼梯">楼梯</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(168);"><img lz_src="cdn/uploads/userup/1811/ertong_225cd732c62fb8a657b73d8993bcb9c7.jpg?1" alt="明日之后简陋木门">简陋木门</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(167);"><img lz_src="cdn/uploads/userup/1811/ertong_75202fd4abbe4a9becc4bb8ea9eab331.jpg?1" alt="明日之后简陋木门框">简陋木门框</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(166);"><img lz_src="cdn/uploads/userup/1811/ertong_9279b51415151ad281bb5204a94f1848.jpg?1" alt="明日之后简陋木地板">简陋木地板</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(165);"><img lz_src="cdn/uploads/userup/1811/ertong_c2d45c0518487e2b01a064a96e120d74.jpg?1" alt="明日之后简陋木墙">简陋木墙</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(164);"><img lz_src="cdn/uploads/userup/1811/ertong_dda79fbd55453a94be71d4ec69d0a39e.jpg?1" alt="明日之后MP5冲锋枪">MP5冲锋枪</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(163);"><img lz_src="cdn/uploads/userup/1811/ertong_328c195cebb28ad3d0b97ff3c2a53baa.jpg?1" alt="明日之后反曲刀">反曲刀</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(162);"><img lz_src="cdn/uploads/userup/1811/ertong_091fd270aaa908336b06c9a84939f86a.jpg?1" alt="明日之后莫辛纳甘狙击枪">莫辛纳甘狙击枪</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(161);"><img lz_src="cdn/uploads/userup/1811/ertong_a4e6c801df59d47ebfeb8aa55702e93f.jpg?1" alt="明日之后M24狙击步枪">M24狙击步枪</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(160);"><img lz_src="cdn/uploads/userup/1811/ertong_91b80a66af23ab57c97b0296202ae42a.jpg?1" alt="明日之后AK47突击步枪">AK47突击步枪</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(159);"><img lz_src="cdn/uploads/userup/1811/ertong_5d056a435193b04618c19dadec7a2319.jpg?1" alt="明日之后闪光弹">闪光弹</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(158);"><img lz_src="cdn/uploads/userup/1811/ertong_cd964efea23cdf2e40b39c6285d51b8a.jpg?1" alt="明日之后普通弹药箱">普通弹药箱</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(157);"><img lz_src="cdn/uploads/userup/1811/ertong_02fe64059108c75c7c96126a9f00dee5.jpg?1" alt="明日之后拳刺">拳刺</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(156);"><img lz_src="cdn/uploads/userup/1811/ertong_6e44a818b0e18a5f4d61d5a3868b9df3.jpg?1" alt="明日之后UMP9冲锋枪">UMP9冲锋枪</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(155);"><img lz_src="cdn/uploads/userup/1811/ertong_cec0f9ff569d69ba0787a6f2c0f3fce3.jpg?1" alt="明日之后汤姆逊冲锋枪">汤姆逊冲锋枪</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(154);"><img lz_src="cdn/uploads/userup/1811/ertong_d39d734fc1eca96c62f358d617619450.jpg?1" alt="明日之后590M霰弹枪">590M霰弹枪</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(150);"><img lz_src="cdn/uploads/userup/1811/ertong_d4a8a84555edc26e2fd78894c4e3e4db.jpg?1" alt="明日之后畜牧圈">畜牧圈</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(149);"><img lz_src="cdn/uploads/userup/1811/ertong_99ed5af31ec792d44bbe6bf50dbe3f9e.jpg?1" alt="明日之后营地矿石挖掘机">营地矿石挖掘机</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(148);"><img lz_src="cdn/uploads/userup/1811/ertong_60815d5e1a54f11da8ec669aa4f41c8e.jpg?1" alt="明日之后消防栓木桌">消防栓木桌</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(147);"><img lz_src="cdn/uploads/userup/1811/ertong_d53e272a06ef59b80eb34ff2a399bfb1.jpg?1" alt="明日之后多色箱型木桌">多色箱型木桌</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(146);"><img lz_src="cdn/uploads/userup/1811/ertong_f8f0d7a7a2b0a8e9246963d3d053e119.jpg?1" alt="明日之后折叠床">折叠床</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(145);"><img lz_src="cdn/uploads/userup/1811/ertong_064a954c7c41f300be50f78476d8e1fe.jpg?1" alt="明日之后高脚酒吧椅">高脚酒吧椅</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(144);"><img lz_src="cdn/uploads/userup/1811/ertong_e2f392d2927d0f14615c846a7e9be9ef.jpg?1" alt="明日之后时尚温馨双人床">时尚温馨双人床</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(143);"><img lz_src="cdn/uploads/userup/1811/ertong_62181fdf86feda18d4d9cecb4d2941f0.jpg?1" alt="明日之后简约布艺大沙发">简约布艺大沙发</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(142);"><img lz_src="cdn/uploads/userup/1811/ertong_7daa0206d235f11d79cb8153c0c35d7d.jpg?1" alt="明日之后豪华欧式大沙发">豪华欧式大沙发</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(141);"><img lz_src="cdn/uploads/userup/1811/ertong_f8cd27172eef401a7e52e34b325837ba.jpg?1" alt="明日之后白色皮质大沙发">白色皮质大沙发</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(140);"><img lz_src="cdn/uploads/userup/1811/ertong_f879fc4d8bc162d63069a4982ea2a788.jpg?1" alt="明日之后老式漱口台摆设">老式漱口台摆设</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(139);"><img lz_src="cdn/uploads/userup/1811/ertong_21922a50030da45aee121be8d2f50b1c.jpg?1" alt="明日之后漱口台摆设">漱口台摆设</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(138);"><img lz_src="cdn/uploads/userup/1811/ertong_abc58d5db517c34e95f7851386943950.jpg?1" alt="明日之后豪华单人沙发">豪华单人沙发</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(137);"><img lz_src="cdn/uploads/userup/1811/ertong_f942a508e33be019a36f3f7f84105df2.jpg?1" alt="明日之后低音喇叭">低音喇叭</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(136);"><img lz_src="cdn/uploads/userup/1811/ertong_eb9aa56ed556a5f7652b682e126543ac.jpg?1" alt="明日之后家用煤气炉">家用煤气炉</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(134);"><img lz_src="cdn/uploads/userup/1811/ertong_f64bb2a9dd8fe87fc3bb333e28cc340b.jpg?1" alt="明日之后大武器架">大武器架</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(133);"><img lz_src="cdn/uploads/userup/1811/ertong_f472cd53bb5deffa531668a1fe661b65.jpg?1" alt="明日之后五层旧书架">五层旧书架</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(132);"><img lz_src="cdn/uploads/userup/1811/ertong_742bf91f28495774f39dc4c66474026e.jpg?1" alt="明日之后绒毛长形地毯">绒毛长形地毯</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(131);"><img lz_src="cdn/uploads/userup/1811/ertong_c81b59ae651a27e9f7179c1f06163cb0.jpg?1" alt="明日之后方形酒店地毯">方形酒店地毯</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(130);"><img lz_src="cdn/uploads/userup/1811/ertong_a3f1ea8a65017ee78e964ea8e753a2f2.jpg?1" alt="明日之后武器架">武器架</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(129);"><img lz_src="cdn/uploads/userup/1811/ertong_20597b8fbe5b274a028f39266a9e2c16.jpg?1" alt="明日之后爬墙植物4">爬墙植物4</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(128);"><img lz_src="cdn/uploads/userup/1811/ertong_4680abac7b81c44416313b041bb57315.jpg?1" alt="明日之后爬墙植物3">爬墙植物3</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(127);"><img lz_src="cdn/uploads/userup/1811/ertong_f410c27ec62697eefc64c2a7c34a4b9a.jpg?1" alt="明日之后爬墙植物2">爬墙植物2</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(126);"><img lz_src="cdn/uploads/userup/1811/ertong_c90213dbdea38439ee5688674c06d845.jpg?1" alt="明日之后爬墙植物1">爬墙植物1</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(125);"><img lz_src="cdn/uploads/userup/1811/ertong_2428e40db08c2dfa552fdd2e6047fc7b.jpg?1" alt="明日之后挂墙花架摆设">挂墙花架摆设</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(124);"><img lz_src="cdn/uploads/userup/1811/ertong_dd2c7f242b843108671e8bf9fb08b1c6.jpg?1" alt="明日之后农产品制作机">农产品制作机</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(123);"><img lz_src="cdn/uploads/userup/1811/ertong_0bed3b1192f941c7d1cc5f4a6b7af0a9.jpg?1" alt="明日之后家用修理太">家用修理太</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(122);"><img lz_src="cdn/uploads/userup/1811/ertong_b62c6598519e284014ade7d4d6666926.jpg?1" alt="明日之后雪峰囚房油画">雪峰囚房油画</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(121);"><img lz_src="cdn/uploads/userup/1811/ertong_ad908c74ca0f94c1fac9ca62937564d8.jpg?1" alt="明日之后顽石油画">顽石油画</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(120);"><img lz_src="cdn/uploads/userup/1811/ertong_fde1253e494d51cd72ffb3c36969268d.jpg?1" alt="明日之后迷茫的路油画">迷茫的路油画</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(119);"><img lz_src="cdn/uploads/userup/1811/ertong_07d8f1402a8b1b54aaa1609bc8555c33.jpg?1" alt="明日之后配方研究台">配方研究台</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(118);"><img lz_src="cdn/uploads/userup/1811/ertong_4fd77ca42534c2caa1c7d36fe2760b56.jpg?1" alt="明日之后建材加工台">建材加工台</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(117);"><img lz_src="cdn/uploads/userup/1811/ertong_4fd8d49b3172c14ae582f2a598c2d6f4.jpg?1" alt="明日之后家用烧烤炉">家用烧烤炉</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(116);"><img lz_src="cdn/uploads/userup/1811/ertong_f15bc5d8aabaaba0c7b36196a538ff4d.jpg?1" alt="明日之后装备制作台">装备制作台</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(115);"><img lz_src="cdn/uploads/userup/1811/ertong_025372672573e957b3f885d5812e8d26.jpg?1" alt="明日之后红白间条太阳伞">红白间条太阳伞</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(114);"><img lz_src="cdn/uploads/userup/1811/ertong_648553f3d19a0a82bb98888b3fa6a2af.jpg?1" alt="明日之后老派牛皮沙发">老派牛皮沙发</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(113);"><img lz_src="cdn/uploads/userup/1811/ertong_34597702264f2e48a69598f6e2347cd7.jpg?1" alt="明日之后锈化办公椅">锈化办公椅</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(112);"><img lz_src="cdn/uploads/userup/1811/ertong_afe4728a84ffc4c94d72b423ce1ad024.jpg?1" alt="明日之后木制方椅">木制方椅</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(111);"><img lz_src="cdn/uploads/userup/1811/ertong_cae64f3f014f95ab7f2335da4171dbe3.jpg?1" alt="明日之后残旧单人床">残旧单人床</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(110);"><img lz_src="cdn/uploads/userup/1811/ertong_7ef26c37c0c996a238e72dcbac4586a5.jpg?1" alt="明日之后简陋木桌">简陋木桌</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(109);"><img lz_src="cdn/uploads/userup/1811/ertong_0256e1800f0759773048a3fa125c6705.jpg?1" alt="明日之后白色皮质沙发">白色皮质沙发</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(108);"><img lz_src="cdn/uploads/userup/1811/ertong_008683761e381b85ada5a005dfe4066e.jpg?1" alt="明日之后洗漱台摆设">洗漱台摆设</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(107);"><img lz_src="cdn/uploads/userup/1811/ertong_ef91427cb42330acad3d763b3dc2c67d.jpg?1" alt="明日之后坐便器">坐便器</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(106);"><img lz_src="cdn/uploads/userup/1811/ertong_1b890d9e6c1baf1afb00e3ef07a849e9.jpg?1" alt="明日之后古典长木桌">古典长木桌</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(105);"><img lz_src="cdn/uploads/userup/1811/ertong_e42e64ba9627ec8f38187ae65d49f633.jpg?1" alt="明日之后典雅酒柜">典雅酒柜</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(104);"><img lz_src="cdn/uploads/userup/1811/ertong_0a124954c738a83334abb263ef050d5f.jpg?1" alt="明日之后小木柜">小木柜</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(103);"><img lz_src="cdn/uploads/userup/1811/ertong_cd960dcf3a205c4ee41f4a91b56e1bce.jpg?1" alt="明日之后书架柜">书架柜</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(102);"><img lz_src="cdn/uploads/userup/1811/ertong_1831cb3304a02f88e3d1c2368f35ff4e.jpg?1" alt="明日之后简约吊灯">简约吊灯</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(101);"><img lz_src="cdn/uploads/userup/1811/ertong_80b6cf5f3fc100e6c0f33ef65d31a98b.jpg?1" alt="明日之后单人田园床">单人田园床</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCP(100);"><img lz_src="cdn/uploads/userup/1811/ertong_9ac77bd201c12d7ed2d931f9512194ab.jpg?1" alt="明日之后火药箱">火药箱</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(99);"><img lz_src="cdn/uploads/userup/1811/ertong_2a2485aa4b90ff77155c1b749f386c37.jpg?1" alt="明日之后警用卫衣（女）">警用卫衣（女）</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(98);"><img lz_src="cdn/uploads/userup/1811/ertong_49c0d61b8935bea69f4f5a7520e985b7.jpg?1" alt="明日之后棒球帽（女）">棒球帽（女）</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(97);"><img lz_src="cdn/uploads/userup/1811/ertong_cc5e5bd6532f98fc839c75ac92a2df21.jpg?1" alt="明日之后探险专家（女）">探险专家（女）</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(96);"><img lz_src="cdn/uploads/userup/1811/ertong_8b257a214c2662a613b6a527109a6139.jpg?1" alt="明日之后休闲帽（女）">休闲帽（女）</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(95);"><img lz_src="cdn/uploads/userup/1811/ertong_ef5afd96f2bb552d9cbf22dd25988e8d.jpg?1" alt="明日之后休闲卫衣（女）">休闲卫衣（女）</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(53);"><img lz_src="cdn/uploads/userup/1811/ertong_71733c9902a5fda226f0b7840aaaaac1.jpg?1" alt="明日之后玻璃纤维鱼竿">玻璃纤维鱼竿</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(52);"><img lz_src="cdn/uploads/userup/1811/ertong_a8988e10d7bff8fac02a424b2213a99f.jpg?1" alt="明日之后铁制鱼竿">铁制鱼竿</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(51);"><img lz_src="cdn/uploads/userup/1811/ertong_62be905b32ebf747eb92a1277b65b2b6.jpg?1" alt="明日之后肉鱼饵">肉鱼饵</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(50);"><img lz_src="cdn/uploads/userup/1811/ertong_0c7d01ab53a791e6753f927fdde5a1e0.jpg?1" alt="明日之后素鱼饵">素鱼饵</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(49);"><img lz_src="cdn/uploads/userup/1811/ertong_274688009300ed67a28218798383527a.jpg?1" alt="明日之后金属拟饵">金属拟饵</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(48);"><img lz_src="cdn/uploads/userup/1811/ertong_03c3e69f2fa419889ac1e2b8cfe1c958.jpg?1" alt="明日之后木制鱼竿">木制鱼竿</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(47);"><img lz_src="cdn/uploads/userup/1811/ertong_982c7473a26e95bbdac83f24d8732e0e.jpg?1" alt="明日之后防感染药物">防感染药物</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(46);"><img lz_src="cdn/uploads/userup/1811/ertong_2e70f6bb4a97d1b63626d7d7c0127852.jpg?1" alt="明日之后绷带">绷带</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(45);"><img lz_src="cdn/uploads/userup/1811/ertong_057f2bbba22fd44bf045bc7d6ea40876.jpg?1" alt="明日之后高级肥料包">高级肥料包</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(44);"><img lz_src="cdn/uploads/userup/1811/ertong_b50c0ba967c5ceb11bc9342eef208ac2.jpg?1" alt="明日之后木栅栏">木栅栏</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(43);"><img lz_src="cdn/uploads/userup/1811/ertong_afdf21a816304570b87fb213cc645bce.jpg?1" alt="明日之后普通抗寒剂">普通抗寒剂</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(42);"><img lz_src="cdn/uploads/userup/1811/ertong_6375897e2129763a9b64e176d8ae44fa.jpg?1" alt="明日之后普通防虫剂">普通防虫剂</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(41);"><img lz_src="cdn/uploads/userup/1811/ertong_24d32b50a782f4d5ac2415a23f2fd346.jpg?1" alt="明日之后普通营养液">普通营养液</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(40);"><img lz_src="cdn/uploads/userup/1811/ertong_5800900c36ecb9509183bc812d298910.jpg?1" alt="明日之后钢板夹层">钢板夹层</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(39);"><img lz_src="cdn/uploads/userup/1811/ertong_3d0c1ae62f44bdd5f4390774906b0287.jpg?1" alt="明日之后组装镐">组装镐</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(38);"><img lz_src="cdn/uploads/userup/1811/ertong_73487e2cc642a697aa76ff02562d54e7.jpg?1" alt="明日之后钢镐">钢镐</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(37);"><img lz_src="cdn/uploads/userup/1811/ertong_0890d6e7b587defe6d84b3a25e9ccd2f.jpg?1" alt="明日之后链式夹层">链式夹层</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(36);"><img lz_src="cdn/uploads/userup/1811/ertong_875d76e1fa96b518a59fd2d5492a355b.jpg?1" alt="明日之后钢斧">钢斧</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(35);"><img lz_src="cdn/uploads/userup/1811/ertong_b95809faaadf97240b43f0309960a8f9.jpg?1" alt="明日之后消防斧">消防斧</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(34);"><img lz_src="cdn/uploads/userup/1811/ertong_f11e612ef2e0657febdd620612bb043e.jpg?1" alt="明日之后铁镐">铁镐</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(33);"><img lz_src="cdn/uploads/userup/1811/ertong_3e3fa349964c55accdd1b0189712de56.jpg?1" alt="明日之后铁斧">铁斧</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(32);"><img lz_src="cdn/uploads/userup/1811/ertong_9178345bf8c302971895b679a03ce7ca.jpg?1" alt="明日之后万能钥匙">万能钥匙</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(31);"><img lz_src="cdn/uploads/userup/1811/ertong_82309e50453d5ec6417737013dd51a34.jpg?1" alt="明日之后石镐">石镐</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(30);"><img lz_src="cdn/uploads/userup/1811/ertong_b6228394ae767b185f24667dc459cbec.jpg?1" alt="明日之后石斧">石斧</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(29);"><img lz_src="cdn/uploads/userup/1811/ertong_5bc6786c110a2d12525b78f401706a06.jpg?1" alt="明日之后火把">火把</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCP(28);"><img lz_src="cdn/uploads/userup/1811/ertong_b40443c287caff5cb91ddcaeac195227.jpg?1" alt="明日之后篝火">篝火</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(27);"><img lz_src="cdn/uploads/userup/1811/ertong_9b214973fc90a24af6372a340fc7721a.jpg?1" alt="明日之后棉絮夹层">棉絮夹层</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(26);"><img lz_src="cdn/uploads/userup/1811/ertong_19b9c4e33c4887b6b00a313c37e2dad5.jpg?1" alt="明日之后精致枪口">精致枪口</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(25);"><img lz_src="cdn/uploads/userup/1811/ertong_ece709d981cf01c8f6c7c351377938ca.jpg?1" alt="明日之后瞄准辅助器">瞄准辅助器</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(23);"><img lz_src="cdn/uploads/userup/1811/ertong_34066f596248bfde7b00ecf31325a7d5.jpg?1" alt="明日之后精制枪托">精制枪托</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(22);"><img lz_src="cdn/uploads/userup/1811/ertong_c59359d2b159cdd84aef3b5f3f79caf6.jpg?1" alt="明日之后藏青单挎包时装">藏青单挎包时装</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(21);"><img lz_src="cdn/uploads/userup/1811/ertong_84080a667a58801fae4217b07af8a721.jpg?1" alt="明日之后深灰旅行包时装">深灰旅行包时装</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(20);"><img lz_src="cdn/uploads/userup/1811/ertong_b2b106863eec1cecc84ef0fe6b86274c.jpg?1" alt="明日之后柠黄登山包时装">柠黄登山包时装</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(19);"><img lz_src="cdn/uploads/userup/1811/ertong_bca1144fa378474841c1d5653ae5061e.jpg?1" alt="明日之后警用卫衣（男）">警用卫衣（男）</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(18);"><img lz_src="cdn/uploads/userup/1811/ertong_130542a1b02ec07516a1d24ea8e7049c.jpg?1" alt="明日之后2级背包扩容袋">2级背包扩容袋</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(17);"><img lz_src="cdn/uploads/userup/1811/ertong_327d8c530709dbdd426764940ebb1b6d.jpg?1" alt="明日之后烟雾弹">烟雾弹</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(16);"><img lz_src="cdn/uploads/userup/1811/ertong_4022c6943ff4db23fbea24df27c61f83.jpg?1" alt="明日之后燃烧瓶">燃烧瓶</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(15);"><img lz_src="cdn/uploads/userup/1811/ertong_c229596857dbc240da8487f0ad99fc3b.jpg?1" alt="明日之后铁丝球棒">铁丝球棒</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(14);"><img lz_src="cdn/uploads/userup/1811/ertong_f22f605177206c2ed51ad58b98199458.jpg?1" alt="明日之后专家型复合弓">专家型复合弓</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(13);"><img lz_src="cdn/uploads/userup/1811/ertong_d753d431a2899dafdd19af5590783cf1.jpg?1" alt="明日之后棒球帽（男）">棒球帽（男）</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(12);"><img lz_src="cdn/uploads/userup/1811/ertong_7df810b2e65d2afce9a29430e23c78c0.jpg?1" alt="明日之后探险专家（男）">探险专家（男）</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(11);"><img lz_src="cdn/uploads/userup/1811/ertong_668e34d1b6941cc03df21558165913fd.jpg?1" alt="明日之后休闲帽（男）">休闲帽（男）</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCP(10);"><img lz_src="cdn/uploads/userup/1811/ertong_ad231fe7d99ae00fd550ba8d844c058d.jpg?1" alt="明日之后休闲卫衣（男）">休闲卫衣（男）</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(9);"><img lz_src="cdn/uploads/userup/1811/ertong_f93e311db0e306bcd111cbac977c01dd.jpg?1" alt="明日之后UZI冲锋枪">UZI冲锋枪</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(7);"><img lz_src="cdn/uploads/userup/1811/ertong_d23d7bcc094512eab9a63c528a745939.jpg?1" alt="明日之后雷明顿M870">雷明顿M870</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(5);"><img lz_src="cdn/uploads/userup/1811/ertong_f72b3684d7d02ff1478dd76fdf4bb8b8.jpg?1" alt="明日之后蒙德拉贡步枪">蒙德拉贡步枪</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(4);"><img lz_src="cdn/uploads/userup/1811/ertong_9ee31f144856c8decc0074f191a16234.jpg?1" alt="明日之后简易弓">简易弓</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(3);"><img lz_src="cdn/uploads/userup/1811/ertong_217964accd1fee4389ef63bbb51eea5e.jpg?1" alt="明日之后箭矢">箭矢</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(2);"><img lz_src="cdn/uploads/userup/1811/ertong_d839b7fdd9353a530f9ea6aaa723812c.jpg?1" alt="明日之后粗制火药箱">粗制火药箱</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCP(1);"><img lz_src="cdn/uploads/userup/1811/ertong_87a58e17e84fb15d89e940753b947e77.jpg?1" alt="明日之后砍刀">砍刀</a></li>
+                                                    </ul>
+                        <a class="btn mt20" id="btn_cp_more">查看更多</a>
+                    </div>
+                </div>
+                <!-- 配方list end -->
+
+                <!-- 配方info -->
+                <div class="tab-page" id="cp_info_div" style="display:none">
+                    <!-- 合成2 -->
+                    <div class="tab-djcl" id="cp_info">
+                    </div>
+                    <a href="#" class="btn mt20" onclick="backCP();return false;">返回配方大全</a>
+                </div>
+                <!-- 配方info end -->
+            </div>
+            <div class="tab-con" style="display:none">
+                <!-- 材料list -->
+                <div class="tab-first" id="cl_list_div">
+                    <form id="form-cl"><div class="search cf mt10"><input type="submit" class="input2 fr" value="搜索"><input type="text" class="input1" value="请输入要查询的材料" onfocus="if(this.value=='请输入要查询的材料') this.value='';" onblur="if(this.value=='') this.value='请输入要查询的材料';"></div></form>
+                    <ul class="blist cf" id="cl_type">
+                        <li class="on" rel=""><a href="#">全部</a></li>
+                                                    <li rel="1"><a href="#">基础材料</a></li>
+                                                    <li rel="2"><a href="#">庄园材料</a></li>
+                                                    <li rel="3"><a href="#">特殊材料</a></li>
+                                                    <li rel="4"><a href="#">专属材料</a></li>
+                                            </ul>
+                    <div class="sx-info">
+                        <ul class="list cf" id="cl_list">
+                                                        <li rel="1"><a href="#" onclick="return showCPNext(134, true);"><img lz_src="cdn/uploads/userup/1901/ertong_4e31616b64d1124f7cd6a35155af84fd.jpg?1" alt="明日之后中级导航仪">中级导航仪</a></li>
+                                                        <li rel="1"><a href="#" onclick="return showCPNext(133, true);"><img lz_src="cdn/uploads/userup/1901/ertong_3c01d0b2dacd7587ca678b97c7359072.jpg?1" alt="明日之后基础导航仪">基础导航仪</a></li>
+                                                        <li rel="1"><a href="#" onclick="return showCPNext(132, true);"><img lz_src="cdn/uploads/userup/1901/ertong_9a717e35a4ff4cebcb673c1c29d8039e.jpg?1" alt="明日之后中级结构框架">中级结构框架</a></li>
+                                                        <li rel="1"><a href="#" onclick="return showCPNext(131, true);"><img lz_src="cdn/uploads/userup/1901/ertong_4786c5c38526b3913753a54c2bd18532.jpg?1" alt="明日之后基础结构框架">基础结构框架</a></li>
+                                                        <li rel="1"><a href="#" onclick="return showCPNext(130, true);"><img lz_src="cdn/uploads/userup/1901/ertong_114fe25a05eca4bf79d20023d550d759.jpg?1" alt="明日之后中级发动机">中级发动机</a></li>
+                                                        <li rel="1"><a href="#" onclick="return showCPNext(129, true);"><img lz_src="cdn/uploads/userup/1901/ertong_6e63aedb65db9ab952722b3c496daa7a.jpg?1" alt="明日之后中级能量核心">中级能量核心</a></li>
+                                                        <li rel="1"><a href="#" onclick="return showCPNext(128, true);"><img lz_src="cdn/uploads/userup/1901/ertong_9c5150b92b98b7e0527abaf84a53fb5a.jpg?1" alt="明日之后基础无人机芯片">基础无人机芯片</a></li>
+                                                        <li rel="1"><a href="#" onclick="return showCPNext(127, true);"><img lz_src="cdn/uploads/userup/1901/ertong_0626dd8d4e28c5ddb8807f09e5792578.jpg?1" alt="明日之后基础发动机">基础发动机</a></li>
+                                                        <li rel="1"><a href="#" onclick="return showCPNext(126, true);"><img lz_src="cdn/uploads/userup/1901/ertong_66b22c357b527623fc44ac34c19e7044.jpg?1" alt="明日之后基础能量核心">基础能量核心</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCL(125);"><img lz_src="cdn/uploads/userup/1812/ertong_9f912c5a6483ac09c72b87691f1e95af.jpg?1" alt="明日之后美须兰">美须兰</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCL(124);"><img lz_src="cdn/uploads/userup/1812/ertong_b3b72b532f8f7f37077410791fd36b3b.jpg?1" alt="明日之后石灰岩">石灰岩</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCL(123);"><img lz_src="cdn/uploads/userup/1812/ertong_2a31f7d7cefe37559a2cf8324fe8eeca.jpg?1" alt="明日之后佣兵物资箱钥匙">佣兵物资箱钥匙</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCL(122);"><img lz_src="cdn/uploads/userup/1812/ertong_4e05133ddb46823718ae7e0e2e0b3465.jpg?1" alt="明日之后科技手镯">科技手镯</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCL(121);"><img lz_src="cdn/uploads/userup/1812/ertong_9380f4805f7fb274891aa8dc24db8c3b.jpg?1" alt="明日之后泡水的相机">泡水的相机</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCL(120);"><img lz_src="cdn/uploads/userup/1812/ertong_578c9480e602460e1e0ee77e91615686.jpg?1" alt="明日之后塞克斯塔的军靴">塞克斯塔的军靴</a></li>
+                                                        <li rel="3"><a href="#" onclick="return showCL(119);"><img lz_src="cdn/uploads/userup/1812/ertong_6c1d932ac382edd48b2a5ec7e866c6bb.jpg?1" alt="明日之后布兰肯锤子">布兰肯锤子</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(118);"><img lz_src="cdn/uploads/userup/1812/ertong_e86d5a004743a7230ee830e00c0e434f.jpg?1" alt="明日之后特制酵母鱼饵">特制酵母鱼饵</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(117);"><img lz_src="cdn/uploads/userup/1811/ertong_ab1c84856a42fb0b87ce56eb57b6b2cf.jpg?1" alt="明日之后肋条肉">肋条肉</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(116);"><img lz_src="cdn/uploads/userup/1811/ertong_98d947a9509aa9ff03b94c714dace358.jpg?1" alt="明日之后浆果">浆果</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(115);"><img lz_src="cdn/uploads/userup/1811/ertong_ad8cf333493ebea96c0e2436461941a0.jpg?1" alt="明日之后油菜">油菜</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(114);"><img lz_src="cdn/uploads/userup/1812/ertong_cb189b962ebdcae569ffb7c0807dab18.jpg?1" alt="明日之后对虾">对虾</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(112);"><img lz_src="cdn/uploads/userup/1812/ertong_b696e79d2b5400b1bcbaca190b409e1b.jpg?1" alt="明日之后布兰肯的臭袜子">布兰肯的臭袜子</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(111);"><img lz_src="cdn/uploads/userup/1812/ertong_bda993c04ac15ee9ed1bea3d32139259.jpg?1" alt="明日之后红麻叶">红麻叶</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(110);"><img lz_src="cdn/uploads/userup/1812/ertong_438a955db61c0d371de83e0306b46146.jpg?1" alt="明日之后龟裂韧皮">龟裂韧皮</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(109);"><img lz_src="cdn/uploads/userup/1812/ertong_cfb67eea3ddf58db10cd5de4c2015ef2.jpg?1" alt="明日之后硬甲皮">硬甲皮</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(108);"><img lz_src="cdn/uploads/userup/1812/ertong_a759f0f92238e5ab1607d599b6dd0e73.jpg?1" alt="明日之后孔雀石">孔雀石</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(107);"><img lz_src="cdn/uploads/userup/1812/ertong_a23897ba9868bfd8e6d27da2fa26a3e9.jpg?1" alt="明日之后护甲材料">护甲材料</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(106);"><img lz_src="cdn/uploads/userup/1812/ertong_65f39f070c0c248313302f8e4a3400c0.jpg?1" alt="明日之后机械材料">机械材料</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(105);"><img lz_src="cdn/uploads/userup/1812/ertong_7b8d11cf558d292461a28b1958fb2eda.jpg?1" alt="明日之后龙葵">龙葵</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(104);"><img lz_src="cdn/uploads/userup/1812/ertong_4d8a59c1e2c92994236b137e5c5c6672.jpg?1" alt="明日之后黑曜石">黑曜石</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(103);"><img lz_src="cdn/uploads/userup/1811/ertong_4912da9bf9a54bfaf35e064e60cd4ced.jpg?1" alt="明日之后某个男性的军牌">某个男性的军牌</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(102);"><img lz_src="cdn/uploads/userup/1811/ertong_6efd6973a7154ed5c5634df3183f94a6.jpg?1" alt="明日之后胶卷（气质出众的科学家）">胶卷（气质出众的科学家）</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(101);"><img lz_src="cdn/uploads/userup/1811/ertong_923b15ac551b2af53add2dc072423815.jpg?1" alt="明日之后刺楸树根">刺楸树根</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(100);"><img lz_src="cdn/uploads/userup/1811/ertong_518afcedd74454eda6caa8013f324400.jpg?1" alt="明日之后煤精石块">煤精石块</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(99);"><img lz_src="cdn/uploads/userup/1811/ertong_9ce2d2c776f137983076a2a084465a21.jpg?1" alt="明日之后破旧的信">破旧的信</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(98);"><img lz_src="cdn/uploads/userup/1811/ertong_491dbe431b066de646648bd0a6f13d5f.jpg?1" alt="明日之后白坚木条">白坚木条</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(97);"><img lz_src="cdn/uploads/userup/1811/ertong_1456dca63a83a20a57884cd213222a6a.jpg?1" alt="明日之后咬人荨麻">咬人荨麻</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(96);"><img lz_src="cdn/uploads/userup/1811/ertong_f59d0dd94b70e249fda89553b8da68fa.jpg?1" alt="明日之后科技会数据">科技会数据</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(95);"><img lz_src="cdn/uploads/userup/1811/ertong_8d84da8ad90668eb2effcf81ce597c4f.jpg?1" alt="明日之后胶卷（狩猎的女蔷微）">胶卷（狩猎的女蔷微）</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(94);"><img lz_src="cdn/uploads/userup/1811/ertong_e8218731bda4793adf2f0e04aa2d5318.jpg?1" alt="明日之后佣兵通讯仪">佣兵通讯仪</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(93);"><img lz_src="cdn/uploads/userup/1811/ertong_3a5d614cecef6833a2b523b6b40b79fa.jpg?1" alt="明日之后千根草">千根草</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(92);"><img lz_src="cdn/uploads/userup/1811/ertong_bef8ad8c19da4fad5d857d85b47bc057.jpg?1" alt="明日之后撕毁的日志">撕毁的日志</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(91);"><img lz_src="cdn/uploads/userup/1811/ertong_56aefa7b4380a43daa50003dbbe0d58e.jpg?1" alt="明日之后感染肉块">感染肉块</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(90);"><img lz_src="cdn/uploads/userup/1811/ertong_023ccd8459e6e5f85eea71851296bdd7.jpg?1" alt="明日之后坦桑原石">坦桑原石</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(89);"><img lz_src="cdn/uploads/userup/1811/ertong_dc8d9598cfa40d4634c2eada2c235e21.jpg?1" alt="明日之后黑胡桃粗木">黑胡桃粗木</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(88);"><img lz_src="cdn/uploads/userup/1811/ertong_b704cee59717cca031c2e2efcd83c37c.jpg?1" alt="明日之后黄腊石">黄腊石</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(87);"><img lz_src="cdn/uploads/userup/1811/ertong_795452f778ad68dad82e0c72911470c2.jpg?1" alt="明日之后金刚原石">金刚原石</a></li>
+                                                        <li style="display:none" rel="3"><a href="#" onclick="return showCL(86);"><img lz_src="cdn/uploads/userup/1811/ertong_7f2aebb45090e6208d8b4f0b739f8e9d.jpg?1" alt="明日之后蜂蜜">蜂蜜</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(85, true);"><img lz_src="cdn/uploads/userup/1811/ertong_dbdb3c2ab7c466bf7a5382fea6598afd.jpg?1" alt="明日之后水泥">水泥</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCPNext(84, true);"><img lz_src="cdn/uploads/userup/1811/ertong_647563da96e5782f77dbc45fd1dce30c.jpg?1" alt="明日之后皮革">皮革</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(83, true);"><img lz_src="cdn/uploads/userup/1811/ertong_161fb386a48a11e47129158ad946ec61.jpg?1" alt="明日之后涤纶布">涤纶布</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(82);"><img lz_src="cdn/uploads/userup/1811/ertong_f4d0948f6e5b44a0e0c091433e69e0f7.jpg?1" alt="明日之后亚麻叶">亚麻叶</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(81, true);"><img lz_src="cdn/uploads/userup/1811/ertong_9b361cb75afa571dd5885e09a4aa9005.jpg?1" alt="明日之后尼龙布">尼龙布</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCPNext(80, true);"><img lz_src="cdn/uploads/userup/1811/ertong_64d9223a4661d815a95528bae819fd43.jpg?1" alt="明日之后钢管">钢管</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(79, true);"><img lz_src="cdn/uploads/userup/1811/ertong_460199c2f8961f879dd3cf6b1fa256e7.jpg?1" alt="明日之后钢">钢</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(78);"><img lz_src="cdn/uploads/userup/1811/ertong_1d425b903481dbea990f7f72e23d15d6.jpg?1" alt="明日之后玻璃">玻璃</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(77);"><img lz_src="cdn/uploads/userup/1811/ertong_34d6d83fa1e7d08694ddd214c63bdba6.jpg?1" alt="明日之后花岗岩">花岗岩</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(76);"><img lz_src="cdn/uploads/userup/1811/ertong_2676a7ce5a505d311a2f015660485529.jpg?1" alt="明日之后钨棒">钨棒</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(75);"><img lz_src="cdn/uploads/userup/1811/ertong_e1dab05b653726401d5933e5957dbb25.jpg?1" alt="明日之后钉子">钉子</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(74);"><img lz_src="cdn/uploads/userup/1811/ertong_380a061c9e6d49e39bc3693dfca1d69e.jpg?1" alt="明日之后兽毛">兽毛</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(73);"><img lz_src="cdn/uploads/userup/1811/ertong_a0cdc33b2b0a16bcceafcc46cd3eee21.jpg?1" alt="明日之后兽牙">兽牙</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCL(72);"><img lz_src="cdn/uploads/userup/1811/ertong_395a93a730700c28e62117fcbff40355.jpg?1" alt="明日之后黄麻杆">黄麻杆</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(71);"><img lz_src="cdn/uploads/userup/1811/ertong_c920ed0b66ad765818e15276cfd2f453.jpg?1" alt="明日之后黄麻叶">黄麻叶</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCL(70);"><img lz_src="cdn/uploads/userup/1811/ertong_b9194739f29dc6d3268411c1acdb69da.jpg?1" alt="明日之后阔树叶">阔树叶</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(69);"><img lz_src="cdn/uploads/userup/1811/ertong_c070b8b6aa4c2627b084aada1e03972b.jpg?1" alt="明日之后黄杨木">黄杨木</a></li>
+                                                        <li style="display:none" rel="4"><a href="#" onclick="return showCL(68);"><img lz_src="cdn/uploads/userup/1811/ertong_7f7f8a917f19ab18d26b924564aeb161.jpg?1" alt="明日之后硅晶矿">硅晶矿</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCL(67);"><img lz_src="cdn/uploads/userup/1811/ertong_68cadd8c0731a23d48afd79064ce8d2c.jpg?1" alt="明日之后方铅矿">方铅矿</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(66);"><img lz_src="cdn/uploads/userup/1811/ertong_bf5dc98cdd2094f7b903063c2f830e4c.jpg?1" alt="明日之后铜矿">铜矿</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(65, true);"><img lz_src="cdn/uploads/userup/1811/ertong_cc069e71fa0afe26251c3d6fa65d64d6.jpg?1" alt="明日之后硬铝合金">硬铝合金</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(64, true);"><img lz_src="cdn/uploads/userup/1811/ertong_eee5c30ec8a1c2718ef4198cd467b6bd.jpg?1" alt="明日之后无烟火药">无烟火药</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCL(63);"><img lz_src="cdn/uploads/userup/1811/ertong_177652b9480c7ca7654498c90692c1e5.jpg?1" alt="明日之后树油">树油</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(62);"><img lz_src="cdn/uploads/userup/1811/ertong_5e0affa5d83741e8d84c0882fd842375.jpg?1" alt="明日之后老柏木">老柏木</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(61);"><img lz_src="cdn/uploads/userup/1811/ertong_6b8e395bdad62bb5f8672c698f73a84c.jpg?1" alt="明日之后蓝晶石">蓝晶石</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(59);"><img lz_src="cdn/uploads/userup/1811/ertong_8072a729e325f5ed6f7a1369fb982874.jpg?1" alt="明日之后亚麻花瓣">亚麻花瓣</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(58);"><img lz_src="cdn/uploads/userup/1811/ertong_3dabed03db55d0a4d9d7a0b1860fafe2.jpg?1" alt="明日之后柏树叶">柏树叶</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(57);"><img lz_src="cdn/uploads/userup/1811/ertong_679dbccfd8f7e8befcc5fb6d440667c2.jpg?1" alt="明日之后油脂">油脂</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(56);"><img lz_src="cdn/uploads/userup/1811/ertong_3d667004d562ce75b42860f183a32be2.jpg?1" alt="明日之后兽角">兽角</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(55);"><img lz_src="cdn/uploads/userup/1811/ertong_c18b2af13bcae1de0c14e8c720b31b4c.jpg?1" alt="明日之后铝矿">铝矿</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(54);"><img lz_src="cdn/uploads/userup/1811/ertong_2c201be0624daaed38fb9d3f9b0c5fba.jpg?1" alt="明日之后胶带">胶带</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(53, true);"><img lz_src="cdn/uploads/userup/1811/ertong_7cd29c54134e00c44b9ffdee3f5c9a22.jpg?1" alt="明日之后石砖">石砖</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(41);"><img lz_src="cdn/uploads/userup/1811/ertong_225f51fde6636e175faf47fca10606d3.jpg?1" alt="明日之后砂岩">砂岩</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(40);"><img lz_src="cdn/uploads/userup/1811/ertong_b1eee54ef1a6dc1d05d678bbba78353b.jpg?1" alt="明日之后石灰">石灰</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(39);"><img lz_src="cdn/uploads/userup/1811/ertong_dd38ce661a56f88edf6f05934969f6cf.jpg?1" alt="明日之后薄膜面料">薄膜面料</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(38);"><img lz_src="cdn/uploads/userup/1811/ertong_4ee3b01f1e30eae392290f56a00bcf9c.jpg?1" alt="明日之后麻绳">麻绳</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(37);"><img lz_src="cdn/uploads/userup/1811/ertong_8012e46cbdc8c3cccd3590afcc69c972.jpg?1" alt="明日之后胶水">胶水</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(34, true);"><img lz_src="cdn/uploads/userup/1811/ertong_7fbad51bf3220cd702fb2469311fb1b2.jpg?1" alt="明日之后木板">木板</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(33, true);"><img lz_src="cdn/uploads/userup/1811/ertong_c8e3022d63f7447fa1ade1ebde808f28.jpg?1" alt="明日之后塑料">塑料</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(32, true);"><img lz_src="cdn/uploads/userup/1811/ertong_ecbc08af04e8fda9563481665c8c8d2c.jpg?1" alt="明日之后螺钉">螺钉</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(31, true);"><img lz_src="cdn/uploads/userup/1811/ertong_5a1fd76c40ec79f74fdb4cdd036f09ab.jpg?1" alt="明日之后铁铸件">铁铸件</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(30, true);"><img lz_src="cdn/uploads/userup/1811/ertong_6a703ee4c5f298951d34116776bb285b.jpg?1" alt="明日之后六角钉">六角钉</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(29, true);"><img lz_src="cdn/uploads/userup/1811/ertong_da844038bb69253fd1613470aa63add8.jpg?1" alt="明日之后生铁">生铁</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(28);"><img lz_src="cdn/uploads/userup/1811/ertong_3dae4e01be7f65a5cf9adf313edac154.jpg?1" alt="明日之后小树枝">小树枝</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(27, true);"><img lz_src="cdn/uploads/userup/1811/ertong_849262c928cefecb9da956781af470eb.jpg?1" alt="明日之后黑火药">黑火药</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(24, true);"><img lz_src="cdn/uploads/userup/1811/ertong_c9bcb845edc07f652bd27b761d8c5e36.jpg?1" alt="明日之后布">布</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCPNext(23, true);"><img lz_src="cdn/uploads/userup/1811/ertong_9d9ed6351f605b4b5be916a26f35e2fa.jpg?1" alt="明日之后粗布条">粗布条</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(22);"><img lz_src="cdn/uploads/userup/1811/ertong_5f9148aa66ca3218b05a7c032babb0bb.png?1" alt="明日之后小麦">小麦</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(21);"><img lz_src="cdn/uploads/userup/1811/ertong_abb3f77b9a67c1029aef66e31355305d.jpg?1" alt="明日之后高分子涂层">高分子涂层</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(20);"><img lz_src="cdn/uploads/userup/1811/ertong_800e4678db7665a413a3ffffaed23055.jpg?1" alt="明日之后骨头">骨头</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(19);"><img lz_src="cdn/uploads/userup/1811/ertong_30400c975d3296047374bc7dd8069d8e.jpg?1" alt="明日之后硫磺">硫磺</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(18);"><img lz_src="cdn/uploads/userup/1811/ertong_bad1b29700a6d4ee2ae691d8a3072fa9.jpg?1" alt="明日之后麻">麻</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(17);"><img lz_src="cdn/uploads/userup/1811/ertong_2c604dad299913227e4f6bd29822ec07.jpg?1" alt="明日之后麻茎杆">麻茎杆</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(16);"><img lz_src="cdn/uploads/userup/1811/ertong_63fa66130adf4c7cc21cf04b1366c4a9.jpg?1" alt="明日之后麻茎皮">麻茎皮</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCL(15);"><img lz_src="cdn/uploads/userup/1811/ertong_66437546564803c4b93db33de7be27dc.jpg?1" alt="明日之后麻子">麻子</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(14);"><img lz_src="cdn/uploads/userup/1811/ertong_9947d1c8ea1877f5b7452c2f7b701db6.jpg?1" alt="明日之后木头">木头</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(13);"><img lz_src="cdn/uploads/userup/1811/ertong_a4f14e506f3f38151155c2a72704e960.jpg?1" alt="明日之后木心">木心</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(12);"><img lz_src="cdn/uploads/userup/1811/ertong_35a7997833154915b02a01a7f153fc22.jpg?1" alt="明日之后石头">石头</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(11);"><img lz_src="cdn/uploads/userup/1811/ertong_79720f6996fcf6f7a2910f046a36489f.jpg?1" alt="明日之后兽筋">兽筋</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(10);"><img lz_src="cdn/uploads/userup/1811/ertong_b47198a493adcb820491ad06124aacb8.jpg?1" alt="明日之后兽皮">兽皮</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(9);"><img lz_src="cdn/uploads/userup/1811/ertong_1ed16bfd0dcd1f43c0556408bd717b40.jpg?1" alt="明日之后树脂">树脂</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(8);"><img lz_src="cdn/uploads/userup/1811/ertong_6de1d58f731f3316639feb5032673036.jpg?1" alt="明日之后燧石">燧石</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(7);"><img lz_src="cdn/uploads/userup/1811/ertong_f5d1386321066b79284a41b11a4eb332.jpg?1" alt="明日之后铁矿">铁矿</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(6);"><img lz_src="cdn/uploads/userup/1811/ertong_e4df7b5b8207de264554b515abbfa0e4.jpg?1" alt="明日之后锡矿">锡矿</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCL(5);"><img lz_src="cdn/uploads/userup/1811/ertong_7c14ddf259fde5a3f85c0d1c44ef873f.jpg?1" alt="明日之后硝石">硝石</a></li>
+                                                        <li style="display:none" rel="2"><a href="#" onclick="return showCL(4);"><img lz_src="cdn/uploads/userup/1811/ertong_47f8a3bb983fe862ce64c235ad3c6dbd.jpg?1" alt="明日之后小枝芽">小枝芽</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(3);"><img lz_src="cdn/uploads/userup/1811/ertong_e267e73dce039b24be26b0372b4109ab.jpg?1" alt="明日之后硬木藤蔓">硬木藤蔓</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(2);"><img lz_src="cdn/uploads/userup/1811/ertong_6e39d8632603a61d8409fe8a46883e4f.jpg?1" alt="明日之后爪子">爪子</a></li>
+                                                        <li style="display:none" rel="1"><a href="#" onclick="return showCL(1);"><img lz_src="cdn/uploads/userup/1811/ertong_a2892b16b03929b0342fffadd3a6339b.jpg?1" alt="明日之后植物根茎">植物根茎</a></li>
+                                                    </ul>
+                        <a href="#" class="btn mt20" id="btn_cl_more">查看更多</a>
+                    </div>
+                </div>
+                <!-- 材料list end -->
+
+                <!-- 材料info -->
+                <div class="tab-page" id="cl_info_div" style="display:none">
+                    <div id="cl_info">
+                    </div>
+                    <a href="#" class="btn mt20" onclick="backCL();return false;">返回材料大全</a>
+                </div>
+                <!-- 材料info end -->
+            </div>
+        </div>
+    </div>
+    <div class="m mt10" id="banner" style="display: none;">
+        <div class="mbr banner cf">
+            <a href="http://m.news.4399.com/survive/" id="zqgl" data-id="88149"><img lzimg="1" lz_src="cdn/survive/static/chengpin/wap/v1/images/banner1.jpg"></a><a href="http://m.news.4399.com/survive/xinde/m/822191.html"><img lzimg="1" lz_src="cdn/survive/static/chengpin/wap/v1/images/banner2.jpg"></a><a href="http://m.news.4399.com/survive/xinde/m/845759.html"><img lzimg="1" lz_src="cdn/survive/static/chengpin/wap/v1/images/banner3.jpg"></a>
+        </div>
+    </div>
+    <div class="m mt10">
+        <div class="mbr plinfo" id="user_pinglun" data-id="58" data-forum_id="18"></div>
+    </div>
+</div>
+<div class="pop" id="kb_dlg" style="display:none">
+	<a class="pp-close" onclick="return $.iwgcDialog.cancel()"></a>
+	<div class="pp-con tac">
+		<div class="fs17">温馨提醒</div>
+		<div class="mt20"><font color="red">该工具仅限于好游快爆APP中使用。</font><br/>明日之后食谱查询器为你提供明日之后所有食谱配方合成公式、所需材料以及获取方法。在好游快爆APP中还有精品攻略、玩家论坛等丰富内容等着你。<br>位置提示：<font color="red">好游快爆APP首页--工具箱--搜索“明日之后”</font></div>
+		<div class="mt20 ppbtn-wrap"><a href="https://www.3839.com/qd-tegong.html" class="pp-btn" rel="external nofollow">下载好游快爆APP</a></div>
+	</div>
+</div>
+<div class="popdown" id="ios_dlg" style="display:none">
+    <span class="pp-close" onclick="return $.iwgcDialog.cancel()"></span>
+    <div class="ppcon">
+        <div class="pp-title1"></div>
+        <div class="pbwrap">
+            <p>关注好游快爆app公众号，点击公众号下方<em class="c4">[工具宝典]</em>选择<em class="c4">[明日之后食谱查询]</em>，即可使用明日之后食谱查询器</p>
+            <div class="mt5"><img src="cdn/survive/static/chengpin/wap/v1/images/pp-img1.png" alt=""></div>
+        </div>
+        <div class="pp-title2 mt5"></div>
+        <div class="pp-howget">
+            <dl>
+                <dt>方法一</dt>
+                <dd>
+                    <div class="pp-how cf mt5">
+                        <img src="cdn/survive/static/chengpin/wap/v1/images/pp-img2.png" alt="">
+                        <p>1、点击微信右上角【+】<br>2、添加好友>>公众号<br>3、搜索<em class="c4">[好游快爆app]</em>或<em class="c4">[hykbapp]</em>关注公众号</p>
+                    </div>
+                    <div class="pp-copy cf mt10"><a class="copy_btn" data-clipboard-text="好游快爆app" style="cursor:pointer;">复制公众号</a><p>公众号：好游快爆app</p></div>
+                </dd>
+            </dl>
+            <dl>
+                <dt>方法二</dt>
+                <dd>
+                    <p class="mt5">长按或点击按钮复制下面这段链接，发送给你的微信好友，并在在微信中打开链接，点击【关注】即可关注好游快爆app微信公众号</p>
+                    <div class="pp-link mt5">https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI4Njg4NTUyMg==&scene=124#wechat_redirect</div>
+                    <a class="pp-click mt5 copy_btn" data-clipboard-text="https://mp.weixin.qq.com/mp/profile_ext?action=home&amp;__biz=MzI4Njg4NTUyMg==&amp;scene=124#wechat_redirect" style="cursor:pointer;">点击复制链接</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="cdn/js/jq/jquery_iwgcDialog3.0.js"></script>
+<script type="text/javascript" src="cdn/js/jq/lzimg.js"></script>
+<script type="text/javascript" src="cdn/js/clipboard.min.js"></script>
+<script type="text/javascript" src="cdn/mobileStyle/hykbComment/js/comment.js"></script>
+<script type="text/javascript" src="cdn/survive/static/chengpin/wap/v1/js/data43d4.js?1550802234"></script>
+<script type="text/javascript">
+var cp_default_len = 16,
+	cl_default_len = 16,
+    sp_default_len = 16,
+    npc_default_len = 16,
+    mnq_cl_default_len = 20;
+var banner = '<div class="addban"><a><img src="cdn/uploads/userup/1811/22152221a25.jpg" alt=""></a></div>';
+(function(){
+	var share_title = '明日之后食谱查询器-好游快爆';
+		share_word = '好游快爆APP明日之后食谱查询器，为你提供最新食谱配方合成公式及材料获取方法。',
+		share_pic  = (document.location.protocol=="https:"?"https:":"http:")+'//newsimg.5054399.com/uploads/userup/1811/121JSa630.jpg';
+	var $share_btn = $('#share_btn');
+	if ($share_btn.length) {
+		if (typeof window.activityInterface == 'object' && typeof window.activityInterface.wapShare == 'function') {
+			$share_btn.click(function () {
+				window.activityInterface.wapShare(share_pic, window.location.href, share_title, share_word, 'all', null);
+			});
+		} else if (typeof window.activityInterface == 'object' && typeof window.activityInterface.toolWapShare == 'function') {
+			$share_btn.click(function () {
+				window.activityInterface.toolWapShare(share_pic, window.location.href, share_title, '', share_word, 'all');
+			});
+		} else {
+			$share_btn.attr('data-role', 'share');
+			$share_btn.attr('data-share-title', share_title);
+			$share_btn.attr('data-share-description', share_word);
+			$share_btn.attr('data-share-img', share_pic);
+			document.write('<script type="text/javascript" src="cdn/etweixin/v2/js/zepto.min.js"><\/script>');
+			document.write('<script type="text/javascript" src="cdn/etweixin/v2/js/jshare.js"><\/script>');
+		}
+	}
+})();
+</script>
+<script type="text/javascript" src="cdn/survive/static/chengpin/wap/v1/js/wap_index_e2.js"></script>
+<script type="text/javascript" src="cdn/js/kbtj.js"></script>
+</body>
+
+<!-- Mirrored from www.onebiji.com/tools/mrzh/pfcxq/wap/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Feb 2019 08:01:31 GMT -->
+</html>
