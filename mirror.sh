@@ -29,4 +29,4 @@ echo "Removing ad and web stats"
 rm cdn/js/kbtj.js cdn/mobileStyle/hykbComment/js/comment.js
 
 echo "sanitize string and make output"
-sed -i '' -E -e 's#"[./]+newsimg.5054399.com#"cdn#g' $(find . -name \*.html -o -name \*.js)
+sed -i '' -E -e 's#"[./\\]+newsimg.5054399.com#"cdn#g' -e 's#\?1"#"#g' $(find . -name \*.html -o -name \*.js)
