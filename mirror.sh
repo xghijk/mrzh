@@ -26,6 +26,9 @@ sed -i '' -e 's#"gb2312"#"UTF-8"#g' index.html
 echo "disable UA check"
 sed -i '' -e 's#/4399_sykb/#/ /#g' $(find . -name \*.html -o -name \*.js)
 
+echo "Remove watermark"
+sed -i '' -e 's#url(../images/shuibg.png) ##g' cdn/survive/static/chengpin/wap/v1/css/style_e2.css
+
 echo "Removing ad and web stats"
 rm cdn/js/kbtj.js cdn/mobileStyle/hykbComment/js/comment.js
 
