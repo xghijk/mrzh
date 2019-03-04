@@ -41,7 +41,7 @@ body{background:url(../images/b1.jpg) repeat-x #f5f3fe top center;background-siz
 .tab-nav li:nth-child(4),.tab-nav li:nth-child(5){width:2.4rem;}
 .tab-nav li:nth-child(3){width:2.5rem;}
 .tab-nav li.on a{background:#b60f0f;}
-.tab-info{background:url(../images/shuibg.png) repeat #fff;background-size:2.33rem 2.03rem;border:1px solid #3d414b;border-top:0;padding:0.2rem 0 0.4rem;padding-top:1.6rem;}
+.tab-info{background:repeat #fff;background-size:2.33rem 2.03rem;border:1px solid #3d414b;border-top:0;padding:0.2rem 0 0.4rem;padding-top:1.6rem;}
 .search{width:5.3rem;height:0.66rem;margin:.2rem auto 0;border:1px solid #3d414b;overflow:hidden;font-size:0.28rem;}
 .search input.input1{width:3.7rem;height:0.48rem;line-height:0.48rem;margin:0.1rem 0 0 0.1rem;padding:0;border:0;outline:none;color:#999;font-size:0.28rem;}
 .search input.input2{background:#3d414b;width:1.37rem;height:0.66rem;line-height:0.66rem;float:right;border:0;color:#fff;text-align:center;font-size:0.28rem;}
