@@ -3,9 +3,9 @@
 # set -x
 set -e
 
-echo "Checking prequisites"
+echo "Checking prerequisites"
 for command in httrack rsync chardetect python3 git; do
-    which -s $command || { echo "Please install $command "; exit 1; }
+    which -s $command || { echo "Please install $command !"; exit 1; }
 done
 
 echo "mirror site"
