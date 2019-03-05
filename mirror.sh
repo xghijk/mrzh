@@ -18,7 +18,7 @@ sed -e 's#\\/#/#g' newsimg.5054399.com/survive/static/chengpin/wap/v1/js/data*.j
 
 echo "copying files to output"
 mkdir -p output
-[ -d output/cdn ] || rm -r output/cdn output/*.html
+[ -d output/cdn -a -f output/index.html ] && rm -r output/cdn output/*.html
 rsync -a newsimg.5054399.com/ output/cdn/
 cp www.onebiji.com/tools/mrzh/pfcxq/wap/index.html output/index.html
 
