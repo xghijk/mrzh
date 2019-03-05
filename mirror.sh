@@ -3,6 +3,11 @@
 # set -x
 set -e
 
+echo "Checking prequisites"
+for command in httrack rsync chardetect python3 git; do
+    which -s $command || { echo "Please install $command "; exit 1; }
+done
+
 echo "mirror site"
 httrack https://www.onebiji.com/tools/mrzh/pfcxq/wap/ +'newsimg.5054399.com/*' -%T -%P -F 'Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36 4399_sykb' -i
 
