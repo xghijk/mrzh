@@ -39,3 +39,8 @@ echo "Upload to git."
 git add --all
 git commit -m "mirror.sh output [$(date)]"
 git push
+
+cd ..
+git add newsimg.5054399.com www.onebiji.com
+git commit -m "mirror.sh output [$(date)]"
+git push
