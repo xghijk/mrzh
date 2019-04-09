@@ -472,7 +472,8 @@
 		
 		$('.go_forum').bind("click", function(){
 			if(!is_sykb){
-				that.pop_comment();
+				window.location.href = 'https://m.bbs.3839.com/forum-'+forum_id+'.htm';
+				// that.pop_comment();
 				return false;
 			}
 			
